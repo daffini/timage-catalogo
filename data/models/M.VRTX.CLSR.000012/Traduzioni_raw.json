@@ -1,0 +1,677 @@
+﻿[
+    {
+        "Lingua":  "Exit",
+        "Descrizione":  "Esci",
+        "id":  "EXIT"
+    },
+    {
+        "Lingua":  "Description",
+        "Descrizione":  "Descrizione",
+        "id":  "DESCRIPTION"
+    },
+    {
+        "Lingua":  "Code",
+        "Descrizione":  "Codice",
+        "id":  "CODE"
+    },
+    {
+        "Lingua":  "Order",
+        "Descrizione":  "Ordina",
+        "id":  "ORDER"
+    },
+    {
+        "Lingua":  "Dimensions",
+        "Descrizione":  "Dimensioni",
+        "id":  "DIMENSIONS"
+    },
+    {
+        "Lingua":  "Qt.",
+        "Descrizione":  "Qt.",
+        "id":  "QUANTITY"
+    },
+    {
+        "Lingua":  "Order form",
+        "Descrizione":  "Modulo d\u0027ordine",
+        "id":  "ORDER_FORM"
+    },
+    {
+        "Lingua":  "Search for Part",
+        "Descrizione":  "Ricerca Particolare",
+        "id":  "SEARCH_PARTS"
+    },
+    {
+        "Lingua":  "Complete Manual",
+        "Descrizione":  "Manuale Completo",
+        "id":  "MANUAL"
+    },
+    {
+        "Lingua":  "Select Code",
+        "Descrizione":  "Seleziona Codice",
+        "id":  "SELECT_CODE"
+    },
+    {
+        "Lingua":  "Modify quantity",
+        "Descrizione":  "Modifica quantità",
+        "id":  "MODIFY_QUANTITY"
+    },
+    {
+        "Lingua":  "Enter new quantity",
+        "Descrizione":  "Inserisci la nuova quantità",
+        "id":  "ENTER_QUANTITY"
+    },
+    {
+        "Lingua":  "Do you want to remove the selected parts from the cart?",
+        "Descrizione":  "Vuoi eliminare i particolari selezionati dal carrello?",
+        "id":  "REMOVE_SEL_CONFIRM"
+    },
+    {
+        "Lingua":  "Do you want to remove all parts from the cart?",
+        "Descrizione":  "Vuoi eliminare tutti i particolari dal carrello?",
+        "id":  "REMOVE_ALL_CONFIRM"
+    },
+    {
+        "Lingua":  "Remove all",
+        "Descrizione":  "Elimina Tutto",
+        "id":  "REMOVE_ALL"
+    },
+    {
+        "Lingua":  "Print",
+        "Descrizione":  "Stampa",
+        "id":  "PRINT"
+    },
+    {
+        "Lingua":  "Remove Selection",
+        "Descrizione":  "Elimina Selezione",
+        "id":  "REMOVE_SEL"
+    },
+    {
+        "Lingua":  "Customer",
+        "Descrizione":  "Cliente",
+        "id":  "CUSTOMER"
+    },
+    {
+        "Lingua":  "Serial no.",
+        "Descrizione":  "Matricola",
+        "id":  "SERIAL"
+    },
+    {
+        "Lingua":  "Model",
+        "Descrizione":  "Modello",
+        "id":  "MODEL"
+    },
+    {
+        "Lingua":  "Note",
+        "Descrizione":  "Note",
+        "id":  "NOTES"
+    },
+    {
+        "Lingua":  "Revision",
+        "Descrizione":  "Revisione",
+        "id":  "REVISION"
+    },
+    {
+        "Lingua":  "Cancel",
+        "Descrizione":  "Annulla",
+        "id":  "CANCEL"
+    },
+    {
+        "Lingua":  "Search Results",
+        "Descrizione":  "Risultati Ricerca",
+        "id":  "SEARCH_RESULTS"
+    },
+    {
+        "Lingua":  "Double click for view table",
+        "Descrizione":  "Doppio click per visualizzare la tavola",
+        "id":  "VIEW_TABLE"
+    },
+    {
+        "Lingua":  "Find",
+        "Descrizione":  "Ricerca",
+        "id":  "SEARCH"
+    },
+    {
+        "Lingua":  "Sect",
+        "Descrizione":  "Sez",
+        "id":  "SECTION"
+    },
+    {
+        "Lingua":  "Unit",
+        "Descrizione":  "Gruppo",
+        "id":  "UNIT"
+    },
+    {
+        "Lingua":  "Table",
+        "Descrizione":  "Tav",
+        "id":  "TABLE"
+    },
+    {
+        "Lingua":  "Operator Name",
+        "Descrizione":  "Nome Operatore",
+        "id":  "OPERATOR_NAME"
+    },
+    {
+        "Lingua":  "Parts List",
+        "Descrizione":  "Elenco Particolari",
+        "id":  "PARTS_LIST"
+    },
+    {
+        "Lingua":  "Help on Line",
+        "Descrizione":  "Guida in linea",
+        "id":  "HELP"
+    },
+    {
+        "Lingua":  "SPARE PARTS CATALOGUE",
+        "Descrizione":  "CATALOGO RICAMBI",
+        "id":  "SPARE_PARTS_CATALOG"
+    },
+    {
+        "Lingua":  "OPERATOR MANUAL",
+        "Descrizione":  "MANUALE ISTRUZIONI",
+        "id":  "OPERATOR_MANUAL"
+    },
+    {
+        "Lingua":  "Unit Description",
+        "Descrizione":  "Denominazione Gruppo",
+        "id":  "UNIT_DESC"
+    },
+    {
+        "Lingua":  "Back",
+        "Descrizione":  "Indietro",
+        "id":  "BACK"
+    },
+    {
+        "Lingua":  "The print template file is missing",
+        "Descrizione":  "Il file di template per la stampa non esiste",
+        "id":  "MISSING_PRINT_TEMPLATE"
+    },
+    {
+        "Lingua":  "File {0} not found",
+        "Descrizione":  "File {0} non trovato",
+        "id":  "FILE_NOT_FOUND"
+    },
+    {
+        "Lingua":  "Invalid input data",
+        "Descrizione":  "Dati in input non validi",
+        "id":  "INVALID_INPUT_DATA"
+    },
+    {
+        "Lingua":  "Go",
+        "Descrizione":  "Vai",
+        "id":  "GO"
+    },
+    {
+        "Lingua":  "Group Code",
+        "Descrizione":  "Codice Gruppo",
+        "id":  "DIC_CODICE_GRUPPO"
+    },
+    {
+        "Lingua":  "Part Code",
+        "Descrizione":  "Codice Particolare",
+        "id":  "DIC_CODICE_PART"
+    },
+    {
+        "Lingua":  "Ore Manutenzione",
+        "Descrizione":  "Ore Manutenzione",
+        "id":  "DIC_ORE_MANUTENZIONE"
+    },
+    {
+        "Lingua":  "",
+        "Descrizione":  "",
+        "id":  "DIC_MANUTENZIONE"
+    },
+    {
+        "Lingua":  "ÍNDICE DE CÓDIGOS RASTREABLE",
+        "Descrizione":  "INDICE CODICI RINTRACCIABILI",
+        "id":  "DIC_INDICE_EXTRA"
+    },
+    {
+        "Lingua":  "Alejamiento",
+        "Descrizione":  "Zoom Out",
+        "id":  "DIC_ZOOM_OUT"
+    },
+    {
+        "Lingua":  "Acercamiento",
+        "Descrizione":  "Zoom In",
+        "id":  "DIC_ZOOM_IN"
+    },
+    {
+        "Lingua":  "Adaptar a la pagina",
+        "Descrizione":  "Fit to Size",
+        "id":  "DIC_FITSIZE"
+    },
+    {
+        "Lingua":  "Impresión",
+        "Descrizione":  "Stampa",
+        "id":  "DIC_PRINTTAV"
+    },
+    {
+        "Lingua":  "Ampliación de imagen área",
+        "Descrizione":  "Zoom Area",
+        "id":  "DIC_ZOOMAREA"
+    },
+    {
+        "Lingua":  "Confirmar operación",
+        "Descrizione":  "Conferma Uscita",
+        "id":  "DIC_CLOSE_TITLE"
+    },
+    {
+        "Lingua":  "¿Está seguro de querer cerrar el programa?",
+        "Descrizione":  "Sei sicuro di voler chiudere il programma?",
+        "id":  "DIC_CLOSE_MESSAGE"
+    },
+    {
+        "Lingua":  "Ok",
+        "Descrizione":  "Ok",
+        "id":  "DIC_OK"
+    },
+    {
+        "Lingua":  "Sí",
+        "Descrizione":  "Si",
+        "id":  "DIC_YES"
+    },
+    {
+        "Lingua":  "No",
+        "Descrizione":  "No",
+        "id":  "DIC_NO"
+    },
+    {
+        "Lingua":  "Cancelar",
+        "Descrizione":  "Annulla",
+        "id":  "DIC_CANCEL"
+    },
+    {
+        "Lingua":  "¡Ningún artículo satisface los criterios de búsqueda!",
+        "Descrizione":  "Nessun articolo soddisfa i criteri di ricerca!",
+        "id":  "DIC_SEARCH_EMPTY"
+    },
+    {
+        "Lingua":  "Eje",
+        "Descrizione":  "Albero",
+        "id":  "DIC_TREE"
+    },
+    {
+        "Lingua":  "Miniaturas",
+        "Descrizione":  "Miniature",
+        "id":  "DIC_THUMB"
+    },
+    {
+        "Lingua":  "ÍNDICE DE CÓDIGOS SAP",
+        "Descrizione":  "INDICE CODICI SAP",
+        "id":  "DIC_INDICE_SAP"
+    },
+    {
+        "Lingua":  "CATÁLOGO PIEZAS DE RECAMBIO MECÁNICAS",
+        "Descrizione":  "CATALOGO PARTI DI RICAMBIO MECCANICHE",
+        "id":  "DIC_CATALOGO_PARTI_RICAMBI"
+    },
+    {
+        "Lingua":  "CATÁLOGO DE REPUESTOS",
+        "Descrizione":  "CATALOGO RICAMBI",
+        "id":  "DIC_CATALOGO_RICAMBI"
+    },
+    {
+        "Lingua":  "MANUAL PARTES",
+        "Descrizione":  "MANUALE PARTI",
+        "id":  "DIC_MANUALE_PARTI"
+    },
+    {
+        "Lingua":  "EXPORTAR XLS",
+        "Descrizione":  "ESPORTA XLS",
+        "id":  "DIC_EXPORT_XLS"
+    },
+    {
+        "Lingua":  "IMPORTAR XLS",
+        "Descrizione":  "IMPORTA XLS",
+        "id":  "DIC_IMPORT_XLS"
+    },
+    {
+        "Lingua":  "GUARDAR PEDIDO",
+        "Descrizione":  "SALVA ORDINE",
+        "id":  "DIC_SAVEORDER"
+    },
+    {
+        "Lingua":  "ABRIR PEDIDO",
+        "Descrizione":  "APRI ORDINE",
+        "id":  "DIC_OPENORDER"
+    },
+    {
+        "Lingua":  "ENVÍO MAIL",
+        "Descrizione":  "INVIO EMAIL",
+        "id":  "DIC_EMAIL"
+    },
+    {
+        "Lingua":  "INDICE GRUPO",
+        "Descrizione":  "INDICE GRUPPI",
+        "id":  "DIC_INDICE_GRUPPI"
+    },
+    {
+        "Lingua":  "INDICE GENERAL",
+        "Descrizione":  "INDICE GENERALE",
+        "id":  "DIC_INDICE_GENERALE"
+    },
+    {
+        "Lingua":  "ATENCIÓN: SVG faltante",
+        "Descrizione":  "ATTENZIONE: SVG Mancante",
+        "id":  "DIC_SVG_MANCANTE"
+    },
+    {
+        "Lingua":  "MODELO",
+        "Descrizione":  "MODELLO",
+        "id":  "DIC_COVER_MODELLO"
+    },
+    {
+        "Lingua":  "MODELO MÁQUINA",
+        "Descrizione":  "MODELLO MACCHINA",
+        "id":  "DIC_COVER_MODELLO_MACCHINA"
+    },
+    {
+        "Lingua":  "CÓDIGO DOCUMENTO",
+        "Descrizione":  "CODICE DOCUMENTO",
+        "id":  "DIC_CODICE_DOCUMENTO"
+    },
+    {
+        "Lingua":  "CERTIFICACIÓN N.º",
+        "Descrizione":  "CERTIFICAZIONE NR.",
+        "id":  "DIC_CERTIFICAZIONE_NUMERO"
+    },
+    {
+        "Lingua":  "MIP \u0027puesta en producción\u0027",
+        "Descrizione":  "MIP \u0027Messa in Produzione\u0027",
+        "id":  "DIC_MIP"
+    },
+    {
+        "Lingua":  "PEDIDO CLIENTE",
+        "Descrizione":  "ORDINE CLIENTE",
+        "id":  "DIC_ORDINE_CLIENTE"
+    },
+    {
+        "Lingua":  "CLIENTE",
+        "Descrizione":  "CLIENTE",
+        "id":  "DIC_COVER_CLIENTE"
+    },
+    {
+        "Lingua":  "MATRÍCULA",
+        "Descrizione":  "MATRICOLA",
+        "id":  "DIC_COVER_MATRICOLA"
+    },
+    {
+        "Lingua":  "REVISION",
+        "Descrizione":  "REVISIONE",
+        "id":  "DIC_COVER_REVISIONE"
+    },
+    {
+        "Lingua":  "ATENCION: EL PREFIJO “K” NO ESTA INDICADO EN LAS REFERENCIAS/CODIGOS EN LA TABLA DE LAS PIEZAS DE REPUESTO",
+        "Descrizione":  "ATTENZIONE: IL PREFISSO \"\u003cb\u003eK\u003c/b\u003e\" NON VIENE RIPORTATO NEI RICHIAMI\\CODICI SULLA TAVOLA RICAMBI",
+        "id":  "DIC_K_ALERT"
+    },
+    {
+        "Lingua":  "PÁGINA DEJADA EN BLANCO",
+        "Descrizione":  "PAGINA LASCIATA INTENZIONALMENTE BIANCA",
+        "id":  "DIC_PAGINA_BIANCA"
+    },
+    {
+        "Lingua":  "ÍNDICE ALFANUMÉRICO",
+        "Descrizione":  "INDICE ALFANUMERICO",
+        "id":  "DIC_INDICE_ALFANUMERICO"
+    },
+    {
+        "Lingua":  "ÍNDICE DE LAS PIEZAS",
+        "Descrizione":  "INDICE DEI PARTICOLARI",
+        "id":  "DIC_INDICE_PARTICOLARI"
+    },
+    {
+        "Lingua":  "INDICE SECCIÓN",
+        "Descrizione":  "INDICE SEZIONI",
+        "id":  "DIC_INDICE_SEZIONI"
+    },
+    {
+        "Lingua":  "INTRODUCCIÓN",
+        "Descrizione":  "INTRODUZIONE",
+        "id":  "DIC_INTRODUZIONE"
+    },
+    {
+        "Lingua":  "Código",
+        "Descrizione":  "Codice",
+        "id":  "DIC_CODICE"
+    },
+    {
+        "Lingua":  "N°Tabla",
+        "Descrizione":  "N° tavola",
+        "id":  "DIC_N_TAVOLA"
+    },
+    {
+        "Lingua":  "C.d",
+        "Descrizione":  "Qt.",
+        "id":  "DIC_QTA"
+    },
+    {
+        "Lingua":  "C.dad",
+        "Descrizione":  "Q.ty",
+        "id":  "DIC_QTA2"
+    },
+    {
+        "Lingua":  "Nota",
+        "Descrizione":  "Note",
+        "id":  "DIC_NOTE"
+    },
+    {
+        "Lingua":  "Grupo",
+        "Descrizione":  "Gruppo",
+        "id":  "DIC_GRUPPO"
+    },
+    {
+        "Lingua":  "Sección",
+        "Descrizione":  "Sezione",
+        "id":  "DIC_SEZIONE"
+    },
+    {
+        "Lingua":  "Descripción",
+        "Descrizione":  "Descrizione",
+        "id":  "DIC_DESCRIZIONE"
+    },
+    {
+        "Lingua":  "SECCIÓN",
+        "Descrizione":  "SEZIONE",
+        "id":  "DIC_SEZIONE_TITOLO"
+    },
+    {
+        "Lingua":  "Sección-Tabla",
+        "Descrizione":  "Sezione-Tavola",
+        "id":  "DIC_SEZIONE-TAVOLA"
+    },
+    {
+        "Lingua":  "Denominación",
+        "Descrizione":  "Denominazione",
+        "id":  "DIC_DENOMINAZIONE"
+    },
+    {
+        "Lingua":  "Especificaciones",
+        "Descrizione":  "Specifiche",
+        "id":  "DIC_DIMENSIONI"
+    },
+    {
+        "Lingua":  "Operador",
+        "Descrizione":  "Operatore",
+        "id":  "DIC_OPERATOR_NAME"
+    },
+    {
+        "Lingua":  "Módulo de pedido",
+        "Descrizione":  "Modulo d\u0027ordine",
+        "id":  "DIC_ORDER_FORM"
+    },
+    {
+        "Lingua":  "Lista Elementos",
+        "Descrizione":  "Elenco Particolari",
+        "id":  "DIC_PARTS_LIST"
+    },
+    {
+        "Lingua":  "Eliminar todo",
+        "Descrizione":  "Elimina Tutto",
+        "id":  "DIC_REMOVE_ALL"
+    },
+    {
+        "Lingua":  "Eliminar selección",
+        "Descrizione":  "Elimina Selezione",
+        "id":  "DIC_REMOVE_SEL"
+    },
+    {
+        "Lingua":  "Impresión",
+        "Descrizione":  "Stampa",
+        "id":  "DIC_PRINT"
+    },
+    {
+        "Lingua":  "Carro",
+        "Descrizione":  "Carrello",
+        "id":  "DIC_CART"
+    },
+    {
+        "Lingua":  "Búsqueda elemento",
+        "Descrizione":  "Ricerca Particolare",
+        "id":  "DIC_SEARCH"
+    },
+    {
+        "Lingua":  "Manual completo",
+        "Descrizione":  "Manuale Completo",
+        "id":  "DIC_MANUAL"
+    },
+    {
+        "Lingua":  "MANUAL DE INSTRUCCIONES",
+        "Descrizione":  "Manuale Istruzioni",
+        "id":  "DIC_IST_MANUAL"
+    },
+    {
+        "Lingua":  "Guía en línea",
+        "Descrizione":  "Guida in linea",
+        "id":  "DIC_HELP"
+    },
+    {
+        "Lingua":  "Salir",
+        "Descrizione":  "Esci",
+        "id":  "DIC_EXIT"
+    },
+    {
+        "Lingua":  "Página inicial",
+        "Descrizione":  "Pagina Iniziale",
+        "id":  "DIC_HOME"
+    },
+    {
+        "Lingua":  "Atrás",
+        "Descrizione":  "Indietro",
+        "id":  "DIC_BACK"
+    },
+    {
+        "Lingua":  "nº",
+        "Descrizione":  "Nr.",
+        "id":  "DIC_POSITION"
+    },
+    {
+        "Lingua":  "PARTES MECÁNICAS",
+        "Descrizione":  "PARTI MECCANICHE",
+        "id":  "DIC_MECHANICAL_PARTS"
+    },
+    {
+        "Lingua":  "ICONOS FUNCIONALES",
+        "Descrizione":  "FUNZIONI MACCHINA (ICONE)",
+        "id":  "DIC_ICONE_FUNZIONALI"
+    },
+    {
+        "Lingua":  "ICONOS FUNCIONALES",
+        "Descrizione":  "FUNZIONI DELLA MACCHINA",
+        "id":  "DIC_ICONE_FUNZIONALI_ACTIVE"
+    },
+    {
+        "Lingua":  "ÍNDICE DE LOS GRUPOS",
+        "Descrizione":  "INDICE DEI GRUPPI",
+        "id":  "DIC_MACHINE_UNITS"
+    },
+    {
+        "Lingua":  "GLOSARIO DESCRIPCIÓNES COMERCIALES",
+        "Descrizione":  "GLOSSARIO COMMERCIALI",
+        "id":  "DIC_COMMERCIAL_GLOSSARY"
+    },
+    {
+        "Lingua":  "GLOSARIO DESCRIPCIÓNES COMERCIALES",
+        "Descrizione":  "Glossario Commerciali",
+        "id":  "DIC_COMMERCIAL_GLOSSARY2"
+    },
+    {
+        "Lingua":  "ÍNDICE ANALÍTICO",
+        "Descrizione":  "INDICE ANALITICO",
+        "id":  "DIC_ANALITICO"
+    },
+    {
+        "Lingua":  "CATÁLOGO DE REPUESTOS",
+        "Descrizione":  "CATALOGO PARTI DI RICAMBI",
+        "id":  "DIC_CATALOGO_PARTI_DI_RICAMBI"
+    },
+    {
+        "Lingua":  "Cliente",
+        "Descrizione":  "Cliente",
+        "id":  "DIC_CLIENTE"
+    },
+    {
+        "Lingua":  "MODELO MÁQUINA",
+        "Descrizione":  "Modello Macchina",
+        "id":  "DIC_MODELLO_MACCHINA"
+    },
+    {
+        "Lingua":  "MATRÍCULA MAQUINA",
+        "Descrizione":  "Matricola Macchina",
+        "id":  "DIC_MATRICOLA_MACCHINA"
+    },
+    {
+        "Lingua":  "Ref. Doc.",
+        "Descrizione":  "Rif. Doc. :",
+        "id":  "DIC_RIF_DOC"
+    },
+    {
+        "Lingua":  "",
+        "Descrizione":  "Rev. :",
+        "id":  "DIC_REV"
+    },
+    {
+        "Lingua":  "",
+        "Descrizione":  "Disegno",
+        "id":  "DIC_DISEGNO"
+    },
+    {
+        "Lingua":  "",
+        "Descrizione":  "Rev.",
+        "id":  "DIC_REV2"
+    },
+    {
+        "Lingua":  "Fecha",
+        "Descrizione":  "Data:",
+        "id":  "DIC_DATA"
+    },
+    {
+        "Lingua":  "ÍNDICE GRÁFICO DE LA MÁQUINA",
+        "Descrizione":  "INDICE GRAFICO DELLA MACCHINA",
+        "id":  "DIC_INDICE_GRAFICO_DELLA_MACCHINA"
+    },
+    {
+        "Lingua":  "ÍNDICE ANALÍTICO DE SECCIONES",
+        "Descrizione":  "INDICE ANALITICO DELLE SEZIONI",
+        "id":  "DIC_INDICE_ANALITICO_DELLE_SEZIONI"
+    },
+    {
+        "Lingua":  "PÁGINA DEJADA EN BLANCO",
+        "Descrizione":  "PAGINA LASCIATA VOLUTAMENTE BIANCA",
+        "id":  "DIC_PAGINA_BIANCA2"
+    },
+    {
+        "Lingua":  "PÁGINA DEJADA EN BLANCO INTENCIONALMENTE",
+        "Descrizione":  "\u0027Pagina lasciata intenzionalmente vuota\u0027",
+        "id":  "DIC_PAGINA_BIANCA3"
+    },
+    {
+        "Lingua":  "ÍNDICE",
+        "Descrizione":  "INDICE ",
+        "id":  "DIC_INDICE"
+    },
+    {
+        "Lingua":  "GLOSARIO DESCRIPCIÓNES COMERCIALES",
+        "Descrizione":  "Glossario dei Commerciali",
+        "id":  "DIC_GLOSSARIO_DEI_COMPONENTI_COMMERCIALI"
+    }
+]

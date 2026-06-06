@@ -1,0 +1,6032 @@
+[
+  {
+    "code": "C.ANEL.SGST.000017",
+    "description": {
+      "it": "SEEGER",
+      "es": "SEEGER"
+    },
+    "extraCode": "Seeger per esterni D=20 UNI 7435-75 INOX",
+    "quantity": 3,
+    "dimensions": "D=20 UNI 7435-75 INOX",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 0,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CSCN.RDLI.000045",
+    "description": {
+      "it": "CUSCINETTO",
+      "es": "COJINETE"
+    },
+    "extraCode": "CUSCINETTO 6004-2RS1 (20x42x12)",
+    "quantity": 2,
+    "dimensions": "6004-2RS1 (20x42x12)",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 1,
+    "maintenance": ""
+  },
+  {
+    "code": "C.LGTE.NGTA.000301",
+    "description": {
+      "it": "LINGUETTA",
+      "es": "LENGÜETA"
+    },
+    "extraCode": "Linguetta tipo A 6x6x30",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 2,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MTRD.MSEW.000279",
+    "description": {
+      "it": "MOTORIDUTTORE",
+      "es": "MOTORREDUCTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "SEW WA20/TDRN71M4 0.37kW D=20 i=6.57-M2A-90°-X 230/400V 50Hz",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 3,
+    "maintenance": ""
+  },
+  {
+    "code": "C.NSTP.SGLN.000012",
+    "description": {
+      "it": "NASTRO",
+      "es": "CINTA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "SIEGLING E8/2 U0/V10 SG",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 4,
+    "maintenance": ""
+  },
+  {
+    "code": "C.SPRT.SUFL.000006",
+    "description": {
+      "it": "SUPPORTO ORIENTABILE",
+      "es": "SOPORTE ORIENTABLE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "UFL 004",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 5,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.CNDT.000092",
+    "description": {
+      "it": "ALBERO DI TENSIONAMENTO",
+      "es": "EJE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 6,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000761",
+    "description": {
+      "it": "PERNO ANTIROTAZIONE",
+      "es": "PERNO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 7,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.TRSM.000363",
+    "description": {
+      "it": "ALBERO MOTORIZZAZIONE ",
+      "es": "EJE MOTORIZACION"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 8,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RGST.000202",
+    "description": {
+      "it": "BLOCCHETTO TIRO",
+      "es": "BLOQUE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 9,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001819",
+    "description": {
+      "it": "PIATTO DI TIRO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 10,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001820",
+    "description": {
+      "it": "PIATTO SUPPORTO MOTORIZZAZIONE",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 11,
+    "maintenance": ""
+  },
+  {
+    "code": "D.RULL.RLFL.000121",
+    "description": {
+      "it": "RULLO FOLLE NASTRO",
+      "es": "RODILLO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 12,
+    "maintenance": ""
+  },
+  {
+    "code": "D.RULL.TRNS.000028",
+    "description": {
+      "it": "RULLO DI TRAINO",
+      "es": "RODELLO DE REMOLQUE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 13,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.PRTN.000071",
+    "description": {
+      "it": "DISTANZIALE TRASPORTATORE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 14,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMR.000060",
+    "description": {
+      "it": "MANIGLIA A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "MRX.40 P-M8x25",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 15,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.000703",
+    "description": {
+      "it": "GUIDA PRODOTTI",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 16,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.001070",
+    "description": {
+      "it": "GUIDA COPERCHIO SCATOLA",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 17,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000172",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 18,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CLNT.000478",
+    "description": {
+      "it": "COLONNETTA MILLIMETRATA",
+      "es": "COLUMNA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 19,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000956",
+    "description": {
+      "it": "DISTANZIALE SUPPORTO GUIDA",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 20,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001746",
+    "description": {
+      "it": "STAFFA SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 21,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001747",
+    "description": {
+      "it": "STAFFA SX SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 22,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002570",
+    "description": {
+      "it": "STAFFA SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 23,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002571",
+    "description": {
+      "it": "STAFFA SX SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 24,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.BRFL.000114",
+    "description": {
+      "it": "BARRA FILETTATA",
+      "es": "BARRA FILETEADA"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 25,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.PNSC.000326",
+    "description": {
+      "it": "PIANALE PER NASTRO",
+      "es": "PLATAFORMA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 26,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.PIED.000237",
+    "description": {
+      "it": "PIEDE SOSTEGNO",
+      "es": "PIE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 27,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.PSZN.000021",
+    "description": {
+      "it": "STAFFA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 28,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000559",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 29,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001710",
+    "description": {
+      "it": "STAFFA SUPPORTO NASTRO",
+      "es": "ESTRIBO DE SOPORTE CINTA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 30,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001772",
+    "description": {
+      "it": "STAFFA SUPPORTO NASTRO",
+      "es": "ESTRIBO DE SOPORTE CINTA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 31,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000016",
+    "description": {
+      "it": "TONDO FISSAGGIO FOTOCELLULA",
+      "es": "VARILLA"
+    },
+    "extraCode": "TONDO FISSAGGIO FOTOCELLULA",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 32,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000017",
+    "description": {
+      "it": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+      "es": "BLOQUE"
+    },
+    "extraCode": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 33,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000069",
+    "description": {
+      "it": "TONDO FISSAGGIO FOTOCELLULA",
+      "es": "VARILLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 34,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000583",
+    "description": {
+      "it": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+      "es": "BLOQUE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 35,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000584",
+    "description": {
+      "it": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+      "es": "BLOQUE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 36,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000807",
+    "description": {
+      "it": "TONDO FISSAGGIO FOTOCELLULA",
+      "es": "VARILLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 37,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 38,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 39,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 40,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.04/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 41,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.02/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 42,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.03/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 43,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000035.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000035",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 44,
+    "maintenance": ""
+  },
+  {
+    "code": "C.ANEL.SGST.000017",
+    "description": {
+      "it": "SEEGER",
+      "es": "SEEGER"
+    },
+    "extraCode": "Seeger per esterni D=20 UNI 7435-75 INOX",
+    "quantity": 3,
+    "dimensions": "D=20 UNI 7435-75 INOX",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 45,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CSCN.RDLI.000045",
+    "description": {
+      "it": "CUSCINETTO",
+      "es": "COJINETE"
+    },
+    "extraCode": "CUSCINETTO 6004-2RS1 (20x42x12)",
+    "quantity": 2,
+    "dimensions": "6004-2RS1 (20x42x12)",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 46,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRNI.PNPN.000037",
+    "description": {
+      "it": "GRANO PUNTA PIANA",
+      "es": "TORNILLO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "M6 x 25 INOX",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 47,
+    "maintenance": ""
+  },
+  {
+    "code": "C.LGTE.NGTA.000301",
+    "description": {
+      "it": "LINGUETTA",
+      "es": "LENGÜETA"
+    },
+    "extraCode": "Linguetta tipo A 6x6x30",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 48,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MTRD.MSEW.000284",
+    "description": {
+      "it": "MOTORIDUTTORE",
+      "es": "MOTORREDUCTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "WA20/TDRN71M4 0.37kW D=20 i=6.57-M2B-270°-X 230/400V 50Hz",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 49,
+    "maintenance": ""
+  },
+  {
+    "code": "C.NSTP.SGLN.000013",
+    "description": {
+      "it": "NASTRO",
+      "es": "CINTA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "E8/2 U0/V10 SG Largh.200 Sv.4010",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 50,
+    "maintenance": ""
+  },
+  {
+    "code": "C.SPRT.SUFL.000006",
+    "description": {
+      "it": "SUPPORTO ORIENTABILE",
+      "es": "SOPORTE ORIENTABLE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "UFL 004",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 51,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.CNDT.000092",
+    "description": {
+      "it": "ALBERO DI TENSIONAMENTO",
+      "es": "EJE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 52,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000761",
+    "description": {
+      "it": "PERNO ANTIROTAZIONE",
+      "es": "PERNO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 53,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.TRSM.000363",
+    "description": {
+      "it": "ALBERO MOTORIZZAZIONE ",
+      "es": "EJE MOTORIZACION"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 54,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RGST.000202",
+    "description": {
+      "it": "BLOCCHETTO TIRO",
+      "es": "BLOQUE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 55,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000578",
+    "description": {
+      "it": "SUPPORTO FOTOCELLULA",
+      "es": "SOPORTE FOTOCELULA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 56,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000825",
+    "description": {
+      "it": "SUPPORTO FOTOCELLULA SX",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 57,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001819",
+    "description": {
+      "it": "PIATTO DI TIRO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 58,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001820",
+    "description": {
+      "it": "PIATTO SUPPORTO MOTORIZZAZIONE",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 59,
+    "maintenance": ""
+  },
+  {
+    "code": "D.RULL.RLFL.000121",
+    "description": {
+      "it": "RULLO FOLLE NASTRO",
+      "es": "RODILLO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 60,
+    "maintenance": ""
+  },
+  {
+    "code": "D.RULL.TRNS.000028",
+    "description": {
+      "it": "RULLO DI TRAINO",
+      "es": "RODELLO DE REMOLQUE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 61,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.PRTN.000071",
+    "description": {
+      "it": "DISTANZIALE TRASPORTATORE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 62,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.BRFL.000114",
+    "description": {
+      "it": "BARRA FILETTATA",
+      "es": "BARRA FILETEADA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 63,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.PNSC.000327",
+    "description": {
+      "it": "PIANO PER NASTRO USCITA",
+      "es": "PLANO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 64,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.PIED.000237",
+    "description": {
+      "it": "PIEDE SOSTEGNO",
+      "es": "PIE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 65,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001710",
+    "description": {
+      "it": "STAFFA SUPPORTO NASTRO",
+      "es": "ESTRIBO DE SOPORTE CINTA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 66,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.PNSC.000328",
+    "description": {
+      "it": "LAMIERA SCORRIMENTO SCATOLE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 67,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000016",
+    "description": {
+      "it": "TONDO FISSAGGIO FOTOCELLULA",
+      "es": "VARILLA"
+    },
+    "extraCode": "TONDO FISSAGGIO FOTOCELLULA",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 68,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000017",
+    "description": {
+      "it": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+      "es": "BLOQUE"
+    },
+    "extraCode": "BLOCCHETTO REGOLAZIONE FOTOCELLULA",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 69,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001761",
+    "description": {
+      "it": "STAFFA SUPPORTO LAMIERA DI SCORRIMENTO",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 70,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000036.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 71,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000036.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 72,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000036.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 73,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000036.02/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 74,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.LNCT.000036.03/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.LNCT.000036",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 75,
+    "maintenance": ""
+  },
+  {
+    "code": "C.ANEL.SGNT.000000",
+    "description": {
+      "it": "SEEGER PER INTERNI",
+      "es": "SEEGER"
+    },
+    "extraCode": "",
+    "quantity": 10,
+    "dimensions": "D=8 UNI 7437-75 ",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 76,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.BRFL.000114",
+    "description": {
+      "it": "BARRA FILETTATA",
+      "es": "BARRA FILETEADA"
+    },
+    "extraCode": "",
+    "quantity": 8,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 77,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.FCCH.000030",
+    "description": {
+      "it": "GUIDA IN POLIZENE",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 78,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.FCCH.000035",
+    "description": {
+      "it": "GUIDA IN POLIZENE",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 79,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.PIED.000238",
+    "description": {
+      "it": "PIEDE SOSTEGNO",
+      "es": "PIE"
+    },
+    "extraCode": "",
+    "quantity": 8,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 80,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMTS.FCCH.000142",
+    "description": {
+      "it": "FACCHINO STRETTO",
+      "es": "TACO ESTRECHO"
+    },
+    "extraCode": "",
+    "quantity": 10,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 81,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMTS.FCCH.000144",
+    "description": {
+      "it": "FACCHINO SMONTABILE",
+      "es": "DIENTE"
+    },
+    "extraCode": "",
+    "quantity": 10,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 82,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TLAI.TNSB.000231",
+    "description": {
+      "it": "TELAIO PER TRACK SCATOLE",
+      "es": "BASTIDOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 83,
+    "maintenance": ""
+  },
+  {
+    "code": "L.RGTR.CTNE.000169",
+    "description": {
+      "it": "CATENA PER CHIUDITRICE",
+      "es": "CADENA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 84,
+    "maintenance": ""
+  },
+  {
+    "code": "S.CHSC.GRCL.000022",
+    "description": {
+      "it": "GRUPPO PISTOLE",
+      "es": "GRUPO PISTOLAS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 85,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CSCN.RBNL.000499",
+    "description": {
+      "it": "CUSCINETTO",
+      "es": "COJINETE"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "SKF 61905-2RS1",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 86,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRNI.PNPN.000031",
+    "description": {
+      "it": "GRANO PUNTA PIANA",
+      "es": "TORNILLO"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "M6 x 10 INOX",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 87,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RDTR.ALPH.000119",
+    "description": {
+      "it": "RIDUTTORE",
+      "es": "REDUCTOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "ALPHA NP025S-MF1-10-1D1-1S / VPL-B1003F-PK12AA",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 88,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000733",
+    "description": {
+      "it": "PERNO PIGNONE FOLLE",
+      "es": "PERNO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 89,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPG.000607",
+    "description": {
+      "it": "LAMIERA SUPPORTO GUIDA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 90,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000150",
+    "description": {
+      "it": "PIASTRINA DI RIFERIMENTO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 91,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000546",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 92,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000550",
+    "description": {
+      "it": "DISTANZIALE PER PIGNONE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 93,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000458",
+    "description": {
+      "it": "DISTANZIALE PER TENSIONAMENTO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 94,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000460",
+    "description": {
+      "it": "DISTANZIALE PER TRAINO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 95,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000919",
+    "description": {
+      "it": "RONDELLA",
+      "es": "ARANDELA"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 96,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000920",
+    "description": {
+      "it": "RONDELLA DI TENUTA",
+      "es": "ARANDELA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 97,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PSCL.000137",
+    "description": {
+      "it": "PIASTRA SUPPORTO RIDUTTORE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 98,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PSCL.000151",
+    "description": {
+      "it": "PIASTRA DI TENSIONAMENTO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 99,
+    "maintenance": ""
+  },
+  {
+    "code": "L.GDPR.PRSC.000024",
+    "description": {
+      "it": "GUIDA A RULLI",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "VG-687H-1.4-3M ",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 100,
+    "maintenance": ""
+  },
+  {
+    "code": "L.RGTR.CTNE.000170",
+    "description": {
+      "it": "CATENA CHIUDITRICE",
+      "es": "CADENA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 101,
+    "maintenance": ""
+  },
+  {
+    "code": "L.RGTR.PGDN.000117",
+    "description": {
+      "it": "PIGNONE",
+      "es": "PIÑÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "1/2\"x5/16\" Z=36 ",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 102,
+    "maintenance": ""
+  },
+  {
+    "code": "L.RGTR.PGDN.000118",
+    "description": {
+      "it": "PIGNONE TRAINO",
+      "es": "PIÑÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "1/2\" x5/16\" ",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 103,
+    "maintenance": ""
+  },
+  {
+    "code": "C.ELBL.LSMR.000018",
+    "description": {
+      "it": "MANIGLIE A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "MRX.63p M6 x 25",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 104,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.VSCH.000289",
+    "description": {
+      "it": "VASCHETTA RACCOLTA COLLA",
+      "es": "BANDEJA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 105,
+    "maintenance": ""
+  },
+  {
+    "code": "S.TRSP.FNCT.000004",
+    "description": {
+      "it": "SPONDA MOBILE CHIUDITRICE",
+      "es": "BORDE MÓVIL CERRADORA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 106,
+    "maintenance": ""
+  },
+  {
+    "code": "S.TRSP.FNCT.000005",
+    "description": {
+      "it": "SPONDA MOBILE CHIUDITRICE",
+      "es": "BORDE MÓVIL CERRADORA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 107,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMR.000060",
+    "description": {
+      "it": "MANIGLIA A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 9,
+    "dimensions": "MRX.40 P-M8x25",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 108,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.000701",
+    "description": {
+      "it": "GUIDA PRODOTTI",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 109,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.001056",
+    "description": {
+      "it": "GUIDA PRODOTTI",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 110,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.001068",
+    "description": {
+      "it": "GUIDA COPERCHIO SCATOLA",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 111,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPG.000283",
+    "description": {
+      "it": "LAMIERA APPOGGIO NASTRO",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 112,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPG.000604",
+    "description": {
+      "it": "LAMIERINO SPESSORE",
+      "es": "ESPESOR"
+    },
+    "extraCode": "",
+    "quantity": 24,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 113,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000172",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 9,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 114,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CLNT.000478",
+    "description": {
+      "it": "COLONNETTA MILLIMETRATA",
+      "es": "COLUMNA"
+    },
+    "extraCode": "",
+    "quantity": 9,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 115,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000950",
+    "description": {
+      "it": "DISTANZIALE SUPPORTO GUIDA",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 116,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.SFTC.000814",
+    "description": {
+      "it": "SUPPORTO FOTOCELLULA",
+      "es": "SOPORTE FOTOCELULA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 117,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001733",
+    "description": {
+      "it": "STAFFA SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 118,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001783",
+    "description": {
+      "it": "ANGOLARE DI SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 10,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 119,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001784",
+    "description": {
+      "it": "ANGOLARE DI SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 10,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 120,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001785",
+    "description": {
+      "it": "STAFFA DI SUPPORTO",
+      "es": "ABRAZADERA DE SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 121,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001786",
+    "description": {
+      "it": "ANGOLARE DI SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 122,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001787",
+    "description": {
+      "it": "ANGOLARE DI SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 123,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001788",
+    "description": {
+      "it": "ANGOLARE DI SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 124,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002568",
+    "description": {
+      "it": "STAFFA SX SUPPORTO GUIDA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 125,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 126,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 4,
+    "id": 127,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 3,
+    "id": 128,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.03/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 129,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.01/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 130,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.04/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 131,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.G.TRSP.NSTL.000085.02/04",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.TRSP.NSTL.000085",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 132,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.FEST.000247",
+    "description": {
+      "it": "CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "FESTO DFM-25-20-B-PPV-A-GF Cod.532317",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 133,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LMZG.000012",
+    "description": {
+      "it": "MANOPOLA ZIGRINATA",
+      "es": "PUÑO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "ELESA DIN 464-M6-16-NI",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 134,
+    "maintenance": ""
+  },
+  {
+    "code": "C.REGF.LSMC.000001",
+    "description": {
+      "it": "REGOLATORE DI FLUSSO",
+      "es": "REGULADOR"
+    },
+    "extraCode": "SMC REG.DI FLUSSO A GOMITO TUBO 6mm FILETTO 1/8\" Cod. AS2201F-01-06SA",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 135,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.GDPR.000707",
+    "description": {
+      "it": "GUIDA PRODOTTO",
+      "es": "Guía producto"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 136,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000151",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 137,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.STML.000161",
+    "description": {
+      "it": "MISURINO",
+      "es": "PLACA MILIMETRADA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 138,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001771",
+    "description": {
+      "it": "STAFFA SUPPORTO CILINDRO",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 139,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001773",
+    "description": {
+      "it": "SUPPORTO CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 140,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.GUID.000201",
+    "description": {
+      "it": "PIATTO DI GUIDA",
+      "es": "PLATO DE GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 141,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.GUID.000202",
+    "description": {
+      "it": "PIATTO GUIDA CILINDRO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 142,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001843",
+    "description": {
+      "it": "PIATTO SUPPORTO CILINDRO",
+      "es": "PLATO SOPORTE CILINDRO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 143,
+    "maintenance": ""
+  },
+  {
+    "code": "G.TRSP.LNCT.000035",
+    "description": {
+      "it": "NASTRO LANCIATORE SCATOLE",
+      "es": "CINTA LANZADOR CAJAS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 144,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001780",
+    "description": {
+      "it": "STAFFA DI FISSAGGIO SCATOLA ELETTRICA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 145,
+    "maintenance": ""
+  },
+  {
+    "code": "G.TRSP.LNCT.000036",
+    "description": {
+      "it": "NASTRO USCITA SCATOLE CHIUDITRICE",
+      "es": "CINTA SALIDA CAJAS CERRADORA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 146,
+    "maintenance": ""
+  },
+  {
+    "code": "G.TRSP.NSTL.000085",
+    "description": {
+      "it": "NASTRO SCATOLE CHIUDITRICE",
+      "es": "CINTA CAJAS CERRADORA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 147,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.P.VRTX.NSTS.000051.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 148,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.P.VRTX.NSTS.000051.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "P.VRTX.NSTS.000051",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 149,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMR.000049",
+    "description": {
+      "it": "MANIGLIA A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "ELESA MRX.80-SST-p-M8x70",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 150,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.SCTL.000369",
+    "description": {
+      "it": "DEFLETTORE",
+      "es": "DEFLECTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 151,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000803",
+    "description": {
+      "it": "LAMIERA PROTEZIONE PISTOLA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 152,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000223",
+    "description": {
+      "it": "INDICE",
+      "es": "INDICADOR "
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 153,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.STML.000160",
+    "description": {
+      "it": "MISURINO",
+      "es": "PLACA MILIMETRADA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 154,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001674",
+    "description": {
+      "it": "STAFFA PISTOLA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 155,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002099",
+    "description": {
+      "it": "STAFFA PISTOLA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 156,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002527",
+    "description": {
+      "it": "STAFFA PISTOLA",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 157,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.GUID.000278",
+    "description": {
+      "it": "PIASTRINA DI GUIDA",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 158,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001800",
+    "description": {
+      "it": "SUPPORTO PISTOLE",
+      "es": "SOPORTE PISTOLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 159,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001824",
+    "description": {
+      "it": "SUPPORTO PISTOLE",
+      "es": "SOPORTE PISTOLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 160,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001850",
+    "description": {
+      "it": "PIATTO DEFLETTORE",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 161,
+    "maintenance": ""
+  },
+  {
+    "code": "L.MGNL.MNGL.000021",
+    "description": {
+      "it": "MANIGLIA A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "MRX M6x50",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 162,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000797",
+    "description": {
+      "it": "LAMIERA PROTEZIONE COLLA",
+      "es": "PROTECCIÓN "
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 163,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000798",
+    "description": {
+      "it": "LAMIERA PROTEZIONE COLLA",
+      "es": "PROTECCIÓN "
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 164,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMST.000454",
+    "description": {
+      "it": "SUPPORTO VERTICALE",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 165,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.STML.000041",
+    "description": {
+      "it": "MISURINO",
+      "es": "PLACA MILIMETRADA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 166,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PSCL.000135",
+    "description": {
+      "it": "SUPPORTO PISTOLA COLLA",
+      "es": "SOPORTE PISTOLA COLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 167,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTPG.000820",
+    "description": {
+      "it": "DISTANZIALE PER LAMIERE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 168,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000948",
+    "description": {
+      "it": "PIASTRA ATTACCO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 169,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001745",
+    "description": {
+      "it": "PIATTO SUPPORTO PISTOLA COLLA",
+      "es": "PLATO SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 170,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.CHSC.GRCL.000022.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 171,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.CHSC.GRCL.000022.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 172,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.CHSC.GRCL.000022.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000022",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 173,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.DFST.000002",
+    "description": {
+      "it": "DECELERATORE",
+      "es": "DECELERADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "YSRW 12-20",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 174,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.HIWI.000005",
+    "description": {
+      "it": "CARRELLO",
+      "es": "CARRO"
+    },
+    "extraCode": "CARRELLO HIWIN HGW20CC",
+    "quantity": 2,
+    "dimensions": "HIWIN HGW20CC",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 175,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.STML.000012",
+    "description": {
+      "it": "MISURINO",
+      "es": "PLACA MILIMETRADA"
+    },
+    "extraCode": "MISURINO L=0-80",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 176,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CNLT.000173",
+    "description": {
+      "it": "SUPPORTO",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 177,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002560",
+    "description": {
+      "it": "SUPPORTO SMONTABILE SX",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 178,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002561",
+    "description": {
+      "it": "SUPPORTO SMORZATORE Dx",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 179,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000949",
+    "description": {
+      "it": "PIATTO ATTACCO GUIDA",
+      "es": "PLATO CONEXIÓN GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 180,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000950",
+    "description": {
+      "it": "PIATTO ATTACCO CARRELLI",
+      "es": "PLATO CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 181,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000951",
+    "description": {
+      "it": "PIATTO ATTACCO CARRELLI",
+      "es": "PLATO CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 182,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000954",
+    "description": {
+      "it": "PIATTO ATTACCO CILINDRO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 183,
+    "maintenance": ""
+  },
+  {
+    "code": "L.GUID.RTIA.000101",
+    "description": {
+      "it": "GUIDA",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 184,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.FEST.000123",
+    "description": {
+      "it": "CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "FESTO DSNU-25- 80-PPV-A",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 185,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.GNFL.000002",
+    "description": {
+      "it": "GIUNTO",
+      "es": "ACOPLAMIENTO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "FLEXO FK-M10x1.25 Cod.6140",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 186,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PRFL.TSSL.000000",
+    "description": {
+      "it": "TASSELLO",
+      "es": "REMACHE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "DIN 508-8-M6-NI",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 187,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.SCTL.000605",
+    "description": {
+      "it": "GUIDA POSTERIORE",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 188,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.GUID.000241",
+    "description": {
+      "it": "PIATTO GUIDA SPONDA",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 189,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000955",
+    "description": {
+      "it": "ATTACCO CILINDRO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 190,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000004.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 191,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000004.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 192,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000004.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000004",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 193,
+    "maintenance": ""
+  },
+  {
+    "code": "L.GUID.RTIA.000101",
+    "description": {
+      "it": "GUIDA",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 194,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000954",
+    "description": {
+      "it": "PIATTO ATTACCO CILINDRO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 195,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000951",
+    "description": {
+      "it": "PIATTO ATTACCO CARRELLI",
+      "es": "PLATO CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 196,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000950",
+    "description": {
+      "it": "PIATTO ATTACCO CARRELLI",
+      "es": "PLATO CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 197,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000949",
+    "description": {
+      "it": "PIATTO ATTACCO GUIDA",
+      "es": "PLATO CONEXIÓN GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 198,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.002560",
+    "description": {
+      "it": "SUPPORTO SMONTABILE SX",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 199,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.STML.000012",
+    "description": {
+      "it": "MISURINO",
+      "es": "PLACA MILIMETRADA"
+    },
+    "extraCode": "MISURINO L=0-80",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 200,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.HIWI.000005",
+    "description": {
+      "it": "CARRELLO",
+      "es": "CARRO"
+    },
+    "extraCode": "CARRELLO HIWIN HGW20CC",
+    "quantity": 2,
+    "dimensions": "HIWIN HGW20CC",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 201,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.DFST.000002",
+    "description": {
+      "it": "DECELERATORE",
+      "es": "DECELERADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "YSRW 12-20",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 1,
+    "id": 202,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000955",
+    "description": {
+      "it": "ATTACCO CILINDRO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 203,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.GUID.000241",
+    "description": {
+      "it": "PIATTO GUIDA SPONDA",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 204,
+    "maintenance": ""
+  },
+  {
+    "code": "D.GUID.SCTL.000608",
+    "description": {
+      "it": "GUIDA POSTERIORE",
+      "es": "GUÍA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 205,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PRFL.TSSL.000000",
+    "description": {
+      "it": "TASSELLO",
+      "es": "REMACHE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "DIN 508-8-M6-NI",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 206,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.GNFL.000002",
+    "description": {
+      "it": "GIUNTO",
+      "es": "ACOPLAMIENTO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "FLEXO FK-M10x1.25 Cod.6140",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 207,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.FEST.000123",
+    "description": {
+      "it": "CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "FESTO DSNU-25- 80-PPV-A",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 208,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000005.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 2,
+    "id": 209,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000005.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 210,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.TRSP.FNCT.000005.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.TRSP.FNCT.000005",
+    "section": "SEZ-01",
+    "table": 0,
+    "id": 211,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CTPC.STND.000051",
+    "description": {
+      "it": "KIT ATTACCHI",
+      "es": "KIT ACOPLAMIENTO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "STENDALTO SR305008 PASSI 24 (Sv. 840 mm)",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 212,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000003",
+    "description": {
+      "it": "DADO",
+      "es": "TUERCA"
+    },
+    "extraCode": "",
+    "quantity": 14,
+    "dimensions": "M6 M-T",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 213,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000028",
+    "description": {
+      "it": "ATTUATORE",
+      "es": "ACTUADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "S-SMART 80 CORSA=570mm Cod.F082ZA11141A000",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 214,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000029",
+    "description": {
+      "it": "KIT ROLLON DI MONTAGGIO",
+      "es": "KIT ROLLON"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "G000827",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 215,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000031",
+    "description": {
+      "it": "CALETTATORE",
+      "es": "ENSAMBLADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "ROLLON 25x41 Cod.6005736",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 216,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RDTR.ALPH.000119",
+    "description": {
+      "it": "RIDUTTORE",
+      "es": "REDUCTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "ALPHA NP025S-MF1-10-1D1-1S / VPL-B1003F-PK12AA",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 217,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.TRBN.000017",
+    "description": {
+      "it": "ALBERO TRAINO",
+      "es": "EJE ARRASTRE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 218,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000115",
+    "description": {
+      "it": "INDICE HOMING",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 219,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000155",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 220,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000434",
+    "description": {
+      "it": "SUPPORTO FRECCIA",
+      "es": "SOPORTE FLECHA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 221,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001583",
+    "description": {
+      "it": "ATTACCO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 222,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001804",
+    "description": {
+      "it": "STAFFA SUPPORTO CATENA PORTACAVI",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 223,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001805",
+    "description": {
+      "it": "STAFFA SUPPORTO CATENA PORTACAVI",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 224,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000939",
+    "description": {
+      "it": "ATTACCO CONTRASTO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 225,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.001045",
+    "description": {
+      "it": "ATTACCO CONTRASTO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 226,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.001206",
+    "description": {
+      "it": "PIASTRA DISTANZIALE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 227,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.001315",
+    "description": {
+      "it": "PIASTRE DISTANZIALE CONTRASTO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 228,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.001316",
+    "description": {
+      "it": "PIASTRA ATTACCO LATERALE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 229,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.G.CHDT.TRSL.000000.01/01",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000000",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 230,
+    "maintenance": ""
+  },
+  {
+    "code": "C.ANEL.SGST.000021",
+    "description": {
+      "it": "SEEGER",
+      "es": "SEEGER"
+    },
+    "extraCode": "Seeger per esterni D=25 UNI 7435-75 INOX",
+    "quantity": 2,
+    "dimensions": "D=25 UNI 7435-75 INOX",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 231,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CTPC.STND.000050",
+    "description": {
+      "it": "KIT ATTACCHI",
+      "es": "KIT ACOPLAMIENTO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "STENDALTO TIPO SR 305010 PASSI 32 (Sv. 1120 mm)",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 232,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000000",
+    "description": {
+      "it": "DADO",
+      "es": "TUERCA"
+    },
+    "extraCode": "",
+    "quantity": 21,
+    "dimensions": "M6 M-T ROLLON COD. 6000437",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 233,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000030",
+    "description": {
+      "it": "ALBERO CAVO",
+      "es": "ARBOL"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "L102R016592RFP50 ROLLON E-SMART 100-SP2 CORSA=935mm",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 234,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GDLN.RLLN.000042",
+    "description": {
+      "it": "CALETTATORE",
+      "es": "ENSAMBLADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "ROLLON 25X50 Cod.6005731",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 235,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GNTI.RTFL.000002",
+    "description": {
+      "it": "GIUNTO A SOFFIETTO",
+      "es": "ACOPLAMIENTO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "METALLICO STS WK6/60-62-25-25",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 236,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RDTR.ALPH.000128",
+    "description": {
+      "it": "RIDUTTORE VITE SENZA FINE",
+      "es": "REDUCTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "ALPHA NVH050S-MF1-16-6E1-1K-0F2 / Rockwell VPL-B1003F-PK12AA",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 237,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000732",
+    "description": {
+      "it": "ALBERO TRAINO",
+      "es": "EJE ARRASTRE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 238,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.TRBN.000018",
+    "description": {
+      "it": "ALBERO TRAINO",
+      "es": "EJE ARRASTRE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 239,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000155",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 240,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001714",
+    "description": {
+      "it": "SUPPORTO GUIDA",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 241,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001715",
+    "description": {
+      "it": "PIASTRA SUPPORTO MOTORE",
+      "es": "PLACA SOPORTE MOTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 242,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.001716",
+    "description": {
+      "it": "PIASTRA SUPPORTO MOTORE",
+      "es": "PLACA SOPORTE MOTOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 243,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000156",
+    "description": {
+      "it": "FRECCIA DI RIFERIMENTO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 244,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.FRCC.000157",
+    "description": {
+      "it": "FRECCIA DI ZERO",
+      "es": "INDICADOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 245,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001585",
+    "description": {
+      "it": "SUPPORTO INNESTO",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 246,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001586",
+    "description": {
+      "it": "SUPPORTO",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 247,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001587",
+    "description": {
+      "it": "SUPPORTO",
+      "es": "SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 248,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001807",
+    "description": {
+      "it": "STAFFA SUPPORTO CATENA PORTACAVI",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 249,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.CHSR.000172",
+    "description": {
+      "it": "PIASTRA SUPPORTO PORTALE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 250,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.CHSR.000186",
+    "description": {
+      "it": "PIASTRA SUPPORTO PORTALE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 251,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000940",
+    "description": {
+      "it": "PIASTRA ATTACCO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 252,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.PRTB.000148",
+    "description": {
+      "it": "TRAVERSO",
+      "es": "TRAVESAÑO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 253,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.G.CHDT.TRSL.000001.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 254,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.G.CHDT.TRSL.000001.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 255,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.G.CHDT.TRSL.000001.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.CHDT.TRSL.000001",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 256,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMS.000004",
+    "description": {
+      "it": "VITE IMPERDIBILE",
+      "es": "TORNILLO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "GN 653.2-M8-42-NI",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 257,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000472",
+    "description": {
+      "it": "LAMIERA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 5,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 258,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000762",
+    "description": {
+      "it": "LAMIERA DI COPERTURA LATERALE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 259,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000763",
+    "description": {
+      "it": "LAMIERA DI COPERTURA LATERALE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 260,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000764",
+    "description": {
+      "it": "LAMIERA COPERTURA CENTRALE",
+      "es": "COBERTURA CENTRAL"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 261,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMST.000411",
+    "description": {
+      "it": "LAMIERA SUPPORTO",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 262,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.SPZR.000183",
+    "description": {
+      "it": "DIMA",
+      "es": "PLANTILLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "SCATOLA STECCHI 5+5 HELACOR",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 263,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMRF.SPZR.000189",
+    "description": {
+      "it": "DIMA",
+      "es": "PLANTILLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "SCATOLA STECCHI 30PZ BULK HELACOR",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 264,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000938",
+    "description": {
+      "it": "PIASTRA ATTACCO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 265,
+    "maintenance": ""
+  },
+  {
+    "code": "S.CHSC.PGFL.000023",
+    "description": {
+      "it": "PIEGA FLAPPE LATERALI",
+      "es": "PLEGADOR SOLAPAS LATERALES"
+    },
+    "extraCode": "",
+    "quantity": 5,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 266,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.G.CHDT.TSCH.000008.01/01",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.CHDT.TSCH.000008",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 267,
+    "maintenance": ""
+  },
+  {
+    "code": "L.ALBR.LNGT.000007",
+    "description": {
+      "it": "LINGUETTA",
+      "es": "LENGÜETA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 268,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.002464",
+    "description": {
+      "it": "PIATTO DI SUPPORTO",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 269,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000937",
+    "description": {
+      "it": "CONTRASTO INFERIORE",
+      "es": "CONTRASTE INFERIOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 270,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000936",
+    "description": {
+      "it": "ATTACCO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 271,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.CHSR.000171",
+    "description": {
+      "it": "PIATTO SUPPORTO ABBATTIFLAPPE",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 272,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001582",
+    "description": {
+      "it": "SUPPORTO CILINDRO",
+      "es": "SOPORTE CILINDRO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 273,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000912",
+    "description": {
+      "it": "RONDELLA",
+      "es": "ARANDELA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 274,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.MRST.000526",
+    "description": {
+      "it": "MORSETTO",
+      "es": "BORNE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 275,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CLNT.000494",
+    "description": {
+      "it": "COLONNETTA DISTANZIALE",
+      "es": "COLUMNA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 276,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000449",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 277,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000447",
+    "description": {
+      "it": "DISTANZIALE MORSETTO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 278,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000446",
+    "description": {
+      "it": "DISTANZIALE MORSETTO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 279,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000538",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 280,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMSC.CHFL.000036",
+    "description": {
+      "it": "ABBATTIFLAPPE LATERALI",
+      "es": "BAJA PESTAÑAS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 281,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000719",
+    "description": {
+      "it": "ALBERO",
+      "es": "EJE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 282,
+    "maintenance": ""
+  },
+  {
+    "code": "C.VITI.NBRK.000005",
+    "description": {
+      "it": "VITE",
+      "es": "TORNILLO"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "M5 D=6 x 20",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 283,
+    "maintenance": ""
+  },
+  {
+    "code": "C.TSND.TSMC.000001",
+    "description": {
+      "it": "TESTA A SNODO",
+      "es": "JUNTA ESFÉRICA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "SMC KJ6DM6",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 284,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RCCD.RSMC.000280",
+    "description": {
+      "it": "REGOLATORE DI FLUSSO",
+      "es": "REGULADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "SMC ASV220F-M5-06",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 285,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMR.000039",
+    "description": {
+      "it": "MANIGLIE A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "MRX.63 B-M8",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 286,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CSCN.RBNL.000465",
+    "description": {
+      "it": "CUSCINETTO",
+      "es": "COJINETE"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "SKF 61901-2RS1",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 287,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.CSMC.000050",
+    "description": {
+      "it": "CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "CDQSB16-10DCM SMC",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 288,
+    "maintenance": ""
+  },
+  {
+    "code": "C.BCCL.IGUS.000057",
+    "description": {
+      "it": "BOCCOLA",
+      "es": "CASQUILLO"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "\"IGUS\" JFM-0608-06",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 1,
+    "id": 289,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CSCN.RBNL.000465",
+    "description": {
+      "it": "CUSCINETTO",
+      "es": "COJINETE"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "SKF 61901-2RS1",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 290,
+    "maintenance": ""
+  },
+  {
+    "code": "C.CLPN.CSMC.000050",
+    "description": {
+      "it": "CILINDRO PNEUMATICO",
+      "es": "CILINDRO NEUMÁTICO"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "CDQSB16-10DCM SMC",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 291,
+    "maintenance": ""
+  },
+  {
+    "code": "C.BCCL.IGUS.000057",
+    "description": {
+      "it": "BOCCOLA",
+      "es": "CASQUILLO"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "\"IGUS\" JFM-0608-06",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 292,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.CHSR.000169",
+    "description": {
+      "it": "PIASTRA SUPPORTO ABBATTIFLAPPE",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 293,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STSP.001581",
+    "description": {
+      "it": "ATTACCO CILINDRO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 294,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.001187",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 295,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000828",
+    "description": {
+      "it": "LISTELLO",
+      "es": "LISTEL"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 296,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000829",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 297,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMSC.CHFL.000037",
+    "description": {
+      "it": "ABBATTIFLAPPA FRONTALE",
+      "es": "BAJA PESTAÑAS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 298,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMSC.CHFL.000035",
+    "description": {
+      "it": "ABBATTIFLAPPE LATERALI",
+      "es": "BAJA PESTAÑAS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 299,
+    "maintenance": ""
+  },
+  {
+    "code": "C.MNGL.LSMR.000039",
+    "description": {
+      "it": "MANIGLIE A RIPRESA",
+      "es": "Empuñadura"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "MRX.63 B-M8",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 300,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RCCD.RSMC.000280",
+    "description": {
+      "it": "REGOLATORE DI FLUSSO",
+      "es": "REGULADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "SMC ASV220F-M5-06",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 301,
+    "maintenance": ""
+  },
+  {
+    "code": "C.TSND.TSMC.000001",
+    "description": {
+      "it": "TESTA A SNODO",
+      "es": "JUNTA ESFÉRICA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "SMC KJ6DM6",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 302,
+    "maintenance": ""
+  },
+  {
+    "code": "C.VITI.NBRK.000005",
+    "description": {
+      "it": "VITE",
+      "es": "TORNILLO"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "M5 D=6 x 20",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 303,
+    "maintenance": ""
+  },
+  {
+    "code": "D.ALBR.PRNI.000719",
+    "description": {
+      "it": "ALBERO",
+      "es": "EJE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 304,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000538",
+    "description": {
+      "it": "DISTANZIALE",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 305,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000446",
+    "description": {
+      "it": "DISTANZIALE MORSETTO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 306,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000447",
+    "description": {
+      "it": "DISTANZIALE MORSETTO",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 307,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.MRST.000526",
+    "description": {
+      "it": "MORSETTO",
+      "es": "BORNE"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 308,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.RNDL.000912",
+    "description": {
+      "it": "RONDELLA",
+      "es": "ARANDELA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 309,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTTC.000936",
+    "description": {
+      "it": "ATTACCO",
+      "es": "CONEXIÓN"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 310,
+    "maintenance": ""
+  },
+  {
+    "code": "L.ALBR.LNGT.000007",
+    "description": {
+      "it": "LINGUETTA",
+      "es": "LENGÜETA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 2,
+    "id": 311,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.S.CHSC.PGFL.000023.01/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 312,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-02.S.CHSC.PGFL.000023.02/02",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.PGFL.000023",
+    "section": "SEZ-02",
+    "table": 0,
+    "id": 313,
+    "maintenance": ""
+  },
+  {
+    "code": "S.STRT.CHDT.000000",
+    "description": {
+      "it": "STRUTTURA CHIUDITRICE",
+      "es": "ESTRUCTURA CERRADORA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 314,
+    "maintenance": ""
+  },
+  {
+    "code": "S.CHSC.GRCL.000018",
+    "description": {
+      "it": "COLLA NORDSON 3 TUBI",
+      "es": "COLA NORDSON 3 TUBOS"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 315,
+    "maintenance": ""
+  },
+  {
+    "code": "S.BRMC.QDLC.000044",
+    "description": {
+      "it": "QUADRO ELETTRICO",
+      "es": "CUADRO ELÉCTRICO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 316,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PRTZ.LCCH.000000",
+    "description": {
+      "it": "LUCCHETTO",
+      "es": "CANDADO"
+    },
+    "extraCode": "LUCCHETTO VIRO 312.64 ARCO LUNGO 64mm BASE 40mm cod. 30031200640000",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 317,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CRTR.000658",
+    "description": {
+      "it": "LAMIERA DI CHIUSURA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 318,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CRTR.000657",
+    "description": {
+      "it": "LAMIERA DI CHIUSURA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 319,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000071",
+    "description": {
+      "it": "DISTANZIALE LAMIERA",
+      "es": "DISTANCIADOR"
+    },
+    "extraCode": "",
+    "quantity": 24,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 320,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000242",
+    "description": {
+      "it": "LAMIERA GRUPPO ARIA PRINCIPALE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 321,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RCCD.TPMS.000002",
+    "description": {
+      "it": "TAPPO",
+      "es": "TAPÓN"
+    },
+    "extraCode": "TAPPO MASCHIO 1/2 Cod. 2107004",
+    "quantity": 1,
+    "dimensions": "1/2 Cod. 2107004",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 322,
+    "maintenance": ""
+  },
+  {
+    "code": "C.RCCD.RSMC.000205",
+    "description": {
+      "it": "RACCORDO",
+      "es": "EMPALME"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "SMC A 90° ",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 323,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.SPRT.000465",
+    "description": {
+      "it": "MONTANTE",
+      "es": "MONTANTE"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 324,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.SPRT.000460",
+    "description": {
+      "it": "TRAVERSA SUPPORTO TRASPORTO",
+      "es": "TRAVESAÑO"
+    },
+    "extraCode": "",
+    "quantity": 8,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 325,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TRVS.SPRT.000439",
+    "description": {
+      "it": "TRAVERSA SUPPORTO TRASPORTO",
+      "es": "TRAVESAÑO"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 326,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.000316",
+    "description": {
+      "it": "SUPPORTO SUPERIORE",
+      "es": "SOPORTE"
+    },
+    "extraCode": "SUPPORTO SUPERIORE",
+    "quantity": 14,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 327,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.SPPR.000315",
+    "description": {
+      "it": "SUPPORTO INFERIORE",
+      "es": "SOPORTE INFERIOR"
+    },
+    "extraCode": "SUPPORTO INFERIORE",
+    "quantity": 14,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 328,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CNLT.000135",
+    "description": {
+      "it": "STAFFA A MORSETTO",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 329,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CNLT.000026",
+    "description": {
+      "it": "STAFFA INF. A MORSETTO",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 330,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPR.000806",
+    "description": {
+      "it": "TETTO",
+      "es": "TECHO "
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 331,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPL.000016",
+    "description": {
+      "it": "GUARNIZIONE PER LAMIERA",
+      "es": "JUNTA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 332,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPL.000015",
+    "description": {
+      "it": "GUARNIZIONE PER LAMIERA",
+      "es": "JUNTA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 333,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMPL.000013",
+    "description": {
+      "it": "GUARNIZIONE PER LAMIERA",
+      "es": "JUNTA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 334,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000424",
+    "description": {
+      "it": "LAMIERA PRESE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 335,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000128",
+    "description": {
+      "it": "LAMIERA PER PULSANTIERA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 336,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000127",
+    "description": {
+      "it": "LAMIERA CHIUSURA VANO PULSANTIERA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 337,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000006",
+    "description": {
+      "it": "LAMIERA CHIUSURA PASSAGGIO CAVI",
+      "es": "CHAPA"
+    },
+    "extraCode": "LAMIERA CHIUSURA PASSAGGIO CAVI",
+    "quantity": 8,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 338,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.CNPC.000068",
+    "description": {
+      "it": "PIATTO ATTACCO COLLA LATERALE",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 339,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.CNPC.000067",
+    "description": {
+      "it": "STAFFA DI SUPPORTO",
+      "es": "ABRAZADERA DE SOPORTE"
+    },
+    "extraCode": "",
+    "quantity": 30,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 340,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.CNPC.000051",
+    "description": {
+      "it": "PIATTO ATTACCO COLLA",
+      "es": "PLATO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 341,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.G.STRT.CHDT.000000.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 342,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.G.STRT.CHDT.000000.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 343,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.G.STRT.CHDT.000000.01/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 344,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.G.STRT.CHDT.000000.02/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 345,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.G.STRT.CHDT.000000.03/03",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "G.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 346,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.CNLT.000171",
+    "description": {
+      "it": "SUPPORTO CANALINE",
+      "es": "SOPORTE CANALES"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "",
+    "group": "S.BRMC.QDLC.000044",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 347,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PSCL.000121",
+    "description": {
+      "it": "PIASTRA PER FISSAGGIO SUPPORTO",
+      "es": "PLACA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.BRMC.QDLC.000044",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 348,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.BRMC.QDLC.000044.01/01",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.BRMC.QDLC.000044",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 349,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDCS.000001",
+    "description": {
+      "it": "HOSE HANGER REDIFLEX",
+      "es": "HOSE HANGER REDIFLEX"
+    },
+    "extraCode": "",
+    "quantity": 9,
+    "dimensions": "cod. 1124221",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 350,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDML.000012",
+    "description": {
+      "it": "GRUPPO COLLA",
+      "es": "GRUPO COLA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "MELTER NORDSON PBF240-T10-STD-FW-4H-P3",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 351,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDPS.000000",
+    "description": {
+      "it": "UGELLO",
+      "es": "BOQUILLA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "322012 -DIA 0.31x1.3",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 352,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDPS.000001",
+    "description": {
+      "it": "PISTOLA",
+      "es": "PISTOLA"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "NORDSON MINIBLUE GUN MB2-BEL00AIATTSSPF41-000000 Cod. 8517895",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 353,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDRC.000000",
+    "description": {
+      "it": "RACCORDO",
+      "es": "EMPALME"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "NORDSON MELTER",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 354,
+    "maintenance": ""
+  },
+  {
+    "code": "C.GRCL.NDTB.000002",
+    "description": {
+      "it": "NORDSON",
+      "es": "NORDSON"
+    },
+    "extraCode": "",
+    "quantity": 3,
+    "dimensions": "274795 12FT AUTO,RTD,2300,240V",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 355,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.CHSC.GRCL.000018.01/01",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.CHSC.GRCL.000018",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 356,
+    "maintenance": ""
+  },
+  {
+    "code": "C.ELST.PRNG.000018",
+    "description": {
+      "it": "PIEDI REGOLABILI",
+      "es": "PIE"
+    },
+    "extraCode": "PIEDI REGOLABILI NGI TIPO KG090-30-180",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 357,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PFFR.PDNT.000000",
+    "description": {
+      "it": "DISCO ANTIVIBRANTE PER PIEDE",
+      "es": "DISCO"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "NGI KG090 30-90 (cod.HF30042)",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 358,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BCDS.000051",
+    "description": {
+      "it": "BOCCOLA",
+      "es": "CASQUILLO"
+    },
+    "extraCode": "BOCCOLA M30 PER PIEDE ROBOT D=65",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 359,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001639",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 360,
+    "maintenance": ""
+  },
+  {
+    "code": "D.TLAI.CHDT.000000",
+    "description": {
+      "it": "TELAIO CHIUDITRICE",
+      "es": "BASTIDOR"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 1,
+    "id": 361,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PFFR.NGST.000001",
+    "description": {
+      "it": "PUFFER",
+      "es": "PUFFER"
+    },
+    "extraCode": "PUFFER ANGST-PFISTER PARACOLPO APSOVIB FORMA A COD. 12.2036.0023",
+    "quantity": 2,
+    "dimensions": "ANGST-PFISTER",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 362,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.MCRS.000006",
+    "description": {
+      "it": "STAFFA SENSORE",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "STAFFA IN LAMIERA PER SENSORI PORTA",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 363,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.NGPN.000055",
+    "description": {
+      "it": "ANGOLARE PER SUPPORTO",
+      "es": "ANGULAR"
+    },
+    "extraCode": "",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 364,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000000",
+    "description": {
+      "it": "QUADRO PER LUCCHETTO",
+      "es": "CUADRO"
+    },
+    "extraCode": "QUADRO PER LUCCHETTO",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 365,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000008",
+    "description": {
+      "it": "BATTENTE PER PORTA",
+      "es": "BATIENTE"
+    },
+    "extraCode": "BATTENTE PER PORTA",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 366,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000009",
+    "description": {
+      "it": "PASTIGLIA IN POLIZENE",
+      "es": "PASTILLA"
+    },
+    "extraCode": "PASTIGLIA IN POLIZENE PER BATTENTE PORTA",
+    "quantity": 4,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 367,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000010",
+    "description": {
+      "it": "MANIGLIA PER PORTA",
+      "es": "EMPUÑADURA"
+    },
+    "extraCode": "MANIGLIA PER PORTA",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 368,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000011",
+    "description": {
+      "it": "PIATTO SERRAGGIO",
+      "es": "PLATO"
+    },
+    "extraCode": "PIATTO SERRAGGIO PIATTINO PER ETICHETTE LUCCHETTI PORTE",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 369,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000012",
+    "description": {
+      "it": "PIATTINO PER ETICHETTE LUCCHETTI PORTE",
+      "es": "PLATO"
+    },
+    "extraCode": "PIATTINO PER ETICHETTE LUCCHETTI PORTE",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 370,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PRTE.000234",
+    "description": {
+      "it": "PORTA SX IN RETE",
+      "es": "PUERTA IZQUIERDA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 371,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PRTE.000235",
+    "description": {
+      "it": "PORTA DX IN RETE",
+      "es": "PUERTA DERECHA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 372,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PTTI.PTPG.000072",
+    "description": {
+      "it": "SUPPORTO SENSORE PORTA",
+      "es": "SOPORTE"
+    },
+    "extraCode": "SUPPORTO SENSORE PORTA",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 373,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PRTZ.CRNR.000001",
+    "description": {
+      "it": "CERNIERA",
+      "es": "BISAGRA"
+    },
+    "extraCode": "\"MARBETT\" CERNIERA IN POLIAMMIDE PART.337 CODICE 60334",
+    "quantity": 12,
+    "dimensions": "MARBETT POLIAMMIDE PART.337 CODICE 60334",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 374,
+    "maintenance": ""
+  },
+  {
+    "code": "C.PRTZ.CRNR.000001",
+    "description": {
+      "it": "CERNIERA",
+      "es": "BISAGRA"
+    },
+    "extraCode": "\"MARBETT\" CERNIERA IN POLIAMMIDE PART.337 CODICE 60334",
+    "quantity": 12,
+    "dimensions": "MARBETT POLIAMMIDE PART.337 CODICE 60334",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 375,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001637",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 376,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001638",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 377,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PRTE.000232",
+    "description": {
+      "it": "PORTA SX IN RETE",
+      "es": "PUERTA IZQUIERDA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 378,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PRTE.000233",
+    "description": {
+      "it": "PORTA DX IN RETE",
+      "es": "PUERTA DERECHA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 379,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LAMI.LMCH.000736",
+    "description": {
+      "it": "LAMIERA CHIUSURA TUNNEL",
+      "es": "CIERRE DEL TÚNEL"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 380,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.BLDS.000808",
+    "description": {
+      "it": "BLOCCHETTO DISTANZIALE",
+      "es": "BLOQUE"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 381,
+    "maintenance": ""
+  },
+  {
+    "code": "D.LMST.STCL.000184",
+    "description": {
+      "it": "STAFFA COLLEGAMENTO",
+      "es": "ABRAZADERA"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 382,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001636",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 383,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001640",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 2,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 384,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.TNNL.000206",
+    "description": {
+      "it": "TUNNEL IN RETE",
+      "es": "TÚNEL"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 385,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CRTR.001179",
+    "description": {
+      "it": "LAMIERA CHIUSURA FRONTALE",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "SX",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 386,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.CSPR.000054",
+    "description": {
+      "it": "LAMIERA PER TARGHETTE SICUREZZA",
+      "es": "CHAPA"
+    },
+    "extraCode": "",
+    "quantity": 6,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 387,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001634",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 388,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001642",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 389,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.PNLL.001643",
+    "description": {
+      "it": "PANNELLO FISSO IN RETE",
+      "es": "PANEL FIJO"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 390,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.TNNL.000207",
+    "description": {
+      "it": "TUNNEL IN RETE USCITA",
+      "es": "TÚNEL"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 391,
+    "maintenance": ""
+  },
+  {
+    "code": "D.PRTZ.TNNL.000210",
+    "description": {
+      "it": "TUNNEL IN RETE USCITA",
+      "es": "TÚNEL"
+    },
+    "extraCode": "",
+    "quantity": 1,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 392,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.01/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 5,
+    "id": 393,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.01/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 3,
+    "id": 394,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.01/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 4,
+    "id": 395,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-01.S.STRT.CHDT.000000.01/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 2,
+    "id": 396,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.01/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 397,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.04/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 398,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.02/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 399,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.05/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 400,
+    "maintenance": ""
+  },
+  {
+    "code": "TAV-03.S.STRT.CHDT.000000.03/05",
+    "description": {
+      "it": "",
+      "es": ""
+    },
+    "extraCode": "",
+    "quantity": 0,
+    "dimensions": "",
+    "group": "S.STRT.CHDT.000000",
+    "section": "SEZ-03",
+    "table": 0,
+    "id": 401,
+    "maintenance": ""
+  }
+]

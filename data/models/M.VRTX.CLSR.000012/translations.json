@@ -1,0 +1,102 @@
+{
+  "home": {
+    "it": "Home",
+    "en": "Home"
+  },
+  "back": {
+    "it": "Indietro",
+    "en": "Back"
+  },
+  "search": {
+    "it": "Cerca",
+    "en": "Search"
+  },
+  "cart": {
+    "it": "Carrello",
+    "en": "Cart"
+  },
+  "help": {
+    "it": "Aiuto",
+    "en": "Help"
+  },
+  "tree_view": {
+    "it": "Albero",
+    "en": "Tree"
+  },
+  "3d_view": {
+    "it": "3D",
+    "en": "3D"
+  },
+  "select_table": {
+    "it": "Seleziona una tavola dall'albero",
+    "en": "Select a table from the tree"
+  },
+  "select_code": {
+    "it": "Codice:",
+    "en": "Code:"
+  },
+  "qty": {
+    "it": "Qt.:",
+    "en": "Qty:"
+  },
+  "add_to_cart": {
+    "it": "Aggiungi",
+    "en": "Add"
+  },
+  "group": {
+    "it": "Gruppo:",
+    "en": "Group:"
+  },
+  "add_group": {
+    "it": "Aggiungi Gruppo",
+    "en": "Add Group"
+  },
+  "cart_title": {
+    "it": "Lista Parti di Ricambio",
+    "en": "Spare Parts List"
+  },
+  "pos": {
+    "it": "Pos",
+    "en": "Pos"
+  },
+  "code": {
+    "it": "Codice",
+    "en": "Code"
+  },
+  "description": {
+    "it": "Descrizione",
+    "en": "Description"
+  },
+  "table_num": {
+    "it": "Tavola",
+    "en": "Table"
+  },
+  "notes": {
+    "it": "Note:",
+    "en": "Notes:"
+  },
+  "operator_name": {
+    "it": "Operatore:",
+    "en": "Operator:"
+  },
+  "search_title": {
+    "it": "Ricerca Particolare",
+    "en": "Part Search"
+  },
+  "part_code": {
+    "it": "Codice Pezzo:",
+    "en": "Part Code:"
+  },
+  "group_code": {
+    "it": "Codice Gruppo:",
+    "en": "Group Code:"
+  },
+  "group_desc": {
+    "it": "Descrizione Gruppo:",
+    "en": "Group Description:"
+  },
+  "serial": {
+    "it": "Matricola",
+    "en": "Serial"
+  }
+}

@@ -1,0 +1,137 @@
+﻿[
+    {
+        "lingua_gruppo":  "CINTA LANZADOR CAJAS",
+        "codice_gruppo":  "G.TRSP.LNCT.000035",
+        "qta_tavole_gruppo":  "38",
+        "id_gruppo":  0,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "NASTRO LANCIATORE SCATOLE"
+    },
+    {
+        "lingua_gruppo":  "CINTA SALIDA CAJAS CERRADORA",
+        "codice_gruppo":  "G.TRSP.LNCT.000036",
+        "qta_tavole_gruppo":  "26",
+        "id_gruppo":  1,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "NASTRO USCITA SCATOLE CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "CINTA CAJAS CERRADORA",
+        "codice_gruppo":  "G.TRSP.NSTL.000085",
+        "qta_tavole_gruppo":  "50",
+        "id_gruppo":  2,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "NASTRO SCATOLE CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "TRANSPORTE CAJAS CERRADORA",
+        "codice_gruppo":  "P.VRTX.NSTS.000051",
+        "qta_tavole_gruppo":  "15",
+        "id_gruppo":  3,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "TRASPORTO SCATOLE CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "GRUPO PISTOLAS PARA CERRADORA",
+        "codice_gruppo":  "S.CHSC.GRCL.000022",
+        "qta_tavole_gruppo":  "21",
+        "id_gruppo":  4,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "GRUPPO PISTOLE PER CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "BORDE MÓVIL CERRADORA",
+        "codice_gruppo":  "S.TRSP.FNCT.000004",
+        "qta_tavole_gruppo":  "17",
+        "id_gruppo":  5,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "SPONDA MOBILE CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "BORDE MÓVIL CERRADORA",
+        "codice_gruppo":  "S.TRSP.FNCT.000005",
+        "qta_tavole_gruppo":  "15",
+        "id_gruppo":  6,
+        "sezione_gruppo":  "01",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "SPONDA MOBILE CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "TRANSFERIDOR VERTICAL",
+        "codice_gruppo":  "G.CHDT.TRSL.000000",
+        "qta_tavole_gruppo":  "18",
+        "id_gruppo":  7,
+        "sezione_gruppo":  "02",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "TRASLATORE VERTICALE"
+    },
+    {
+        "lingua_gruppo":  "TRANSFERIDOR HORIZONTAL",
+        "codice_gruppo":  "G.CHDT.TRSL.000001",
+        "qta_tavole_gruppo":  "23",
+        "id_gruppo":  8,
+        "sezione_gruppo":  "02",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "TRASLATORE ORIZZONTALE"
+    },
+    {
+        "lingua_gruppo":  "CIERRE DE 5 CABEZAS",
+        "codice_gruppo":  "G.CHDT.TSCH.000008",
+        "qta_tavole_gruppo":  "10",
+        "id_gruppo":  9,
+        "sezione_gruppo":  "02",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "CHIUSURA A 5 TESTE"
+    },
+    {
+        "lingua_gruppo":  "PLEGADOR SOLAPAS LATERALES",
+        "codice_gruppo":  "S.CHSC.PGFL.000023",
+        "qta_tavole_gruppo":  "44",
+        "id_gruppo":  10,
+        "sezione_gruppo":  "02",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "PIEGA FLAPPE LATERALI"
+    },
+    {
+        "lingua_gruppo":  "ESTRUCTURA CERRADORA",
+        "codice_gruppo":  "G.STRT.CHDT.000000",
+        "qta_tavole_gruppo":  "28",
+        "id_gruppo":  11,
+        "sezione_gruppo":  "03",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "STRUTTURA CHIUDITRICE"
+    },
+    {
+        "lingua_gruppo":  "CUADRO ELÉCTRICO",
+        "codice_gruppo":  "S.BRMC.QDLC.000044",
+        "qta_tavole_gruppo":  "2",
+        "id_gruppo":  12,
+        "sezione_gruppo":  "03",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "QUADRO ELETTRICO"
+    },
+    {
+        "lingua_gruppo":  "COLA NORDSON 3 TUBOS",
+        "codice_gruppo":  "S.CHSC.GRCL.000018",
+        "qta_tavole_gruppo":  "6",
+        "id_gruppo":  13,
+        "sezione_gruppo":  "03",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "COLLA NORDSON 3 TUBI"
+    },
+    {
+        "lingua_gruppo":  "ESTRUCTURA CERRADORA",
+        "codice_gruppo":  "S.STRT.CHDT.000000",
+        "qta_tavole_gruppo":  "36",
+        "id_gruppo":  14,
+        "sezione_gruppo":  "03",
+        "manutenzione":  "",
+        "descrizione_gruppo":  "STRUTTURA CHIUDITRICE"
+    }
+]

@@ -1,0 +1,249 @@
+{
+  "sections": [
+    {
+      "id": "SEZ-01",
+      "name": {
+        "it": "TRASPORTO SCATOLE",
+        "es": "TRANSPORTE CAJAS"
+      },
+      "3dNode": "G.TRSP.LNCT.000035",
+      "groups": [
+        {
+          "id": "G.TRSP.LNCT.000035",
+          "code": "G.TRSP.LNCT.000035",
+          "name": {
+            "it": "NASTRO LANCIATORE SCATOLE",
+            "es": "CINTA LANZADOR CAJAS"
+          },
+          "3dNode": "G.TRSP.LNCT.000035",
+          "tables": [
+            "G.TRSP.LNCT.000035_00_12",
+            "G.TRSP.LNCT.000035_01_12",
+            "G.TRSP.LNCT.000035_02_12",
+            "G.TRSP.LNCT.000035_03_12",
+            "G.TRSP.LNCT.000035_04_12"
+          ]
+        },
+        {
+          "id": "G.TRSP.LNCT.000036",
+          "code": "G.TRSP.LNCT.000036",
+          "name": {
+            "it": "NASTRO USCITA SCATOLE CHIUDITRICE",
+            "es": "CINTA SALIDA CAJAS CERRADORA"
+          },
+          "3dNode": "G.TRSP.LNCT.000036",
+          "tables": [
+            "G.TRSP.LNCT.000036_00_12",
+            "G.TRSP.LNCT.000036_01_12",
+            "G.TRSP.LNCT.000036_02_12",
+            "G.TRSP.LNCT.000036_03_12"
+          ]
+        },
+        {
+          "id": "G.TRSP.NSTL.000085",
+          "code": "G.TRSP.NSTL.000085",
+          "name": {
+            "it": "NASTRO SCATOLE CHIUDITRICE",
+            "es": "CINTA CAJAS CERRADORA"
+          },
+          "3dNode": "G.TRSP.NSTL.000085",
+          "tables": [
+            "G.TRSP.NSTL.000085_00_13",
+            "G.TRSP.NSTL.000085_01_13",
+            "G.TRSP.NSTL.000085_02_13",
+            "G.TRSP.NSTL.000085_03_13",
+            "G.TRSP.NSTL.000085_04_13"
+          ]
+        },
+        {
+          "id": "P.VRTX.NSTS.000051",
+          "code": "P.VRTX.NSTS.000051",
+          "name": {
+            "it": "TRASPORTO SCATOLE CHIUDITRICE",
+            "es": "TRANSPORTE CAJAS CERRADORA"
+          },
+          "3dNode": "P.VRTX.NSTS.000051",
+          "tables": [
+            "P.VRTX.NSTS.000051_00_11",
+            "P.VRTX.NSTS.000051_01_11",
+            "P.VRTX.NSTS.000051_02_11"
+          ]
+        },
+        {
+          "id": "S.CHSC.GRCL.000022",
+          "code": "S.CHSC.GRCL.000022",
+          "name": {
+            "it": "GRUPPO PISTOLE PER CHIUDITRICE",
+            "es": "GRUPO PISTOLAS PARA CERRADORA"
+          },
+          "3dNode": "S.CHSC.GRCL.000022",
+          "tables": [
+            "S.CHSC.GRCL.000022_00_11",
+            "S.CHSC.GRCL.000022_01_11",
+            "S.CHSC.GRCL.000022_02_11"
+          ]
+        },
+        {
+          "id": "S.TRSP.FNCT.000004",
+          "code": "S.TRSP.FNCT.000004",
+          "name": {
+            "it": "SPONDA MOBILE CHIUDITRICE",
+            "es": "BORDE MÓVIL CERRADORA"
+          },
+          "3dNode": "S.TRSP.FNCT.000004",
+          "tables": [
+            "S.TRSP.FNCT.000004_00_14",
+            "S.TRSP.FNCT.000004_01_14",
+            "S.TRSP.FNCT.000004_02_14"
+          ]
+        },
+        {
+          "id": "S.TRSP.FNCT.000005",
+          "code": "S.TRSP.FNCT.000005",
+          "name": {
+            "it": "SPONDA MOBILE CHIUDITRICE",
+            "es": "BORDE MÓVIL CERRADORA"
+          },
+          "3dNode": "S.TRSP.FNCT.000005",
+          "tables": [
+            "S.TRSP.FNCT.000005_00_14",
+            "S.TRSP.FNCT.000005_01_14",
+            "S.TRSP.FNCT.000005_02_14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SEZ-02",
+      "name": {
+        "it": "CHIUSURA SCATOLE",
+        "es": "CIERRE CAJAS"
+      },
+      "3dNode": "G.CHDT.TRSL.000000",
+      "groups": [
+        {
+          "id": "G.CHDT.TRSL.000000",
+          "code": "G.CHDT.TRSL.000000",
+          "name": {
+            "it": "TRASLATORE VERTICALE",
+            "es": "TRANSFERIDOR VERTICAL"
+          },
+          "3dNode": "G.CHDT.TRSL.000000",
+          "tables": [
+            "G.CHDT.TRSL.000000_00_12",
+            "G.CHDT.TRSL.000000_01_12"
+          ]
+        },
+        {
+          "id": "G.CHDT.TRSL.000001",
+          "code": "G.CHDT.TRSL.000001",
+          "name": {
+            "it": "TRASLATORE ORIZZONTALE",
+            "es": "TRANSFERIDOR HORIZONTAL"
+          },
+          "3dNode": "G.CHDT.TRSL.000001",
+          "tables": [
+            "G.CHDT.TRSL.000001_00_10",
+            "G.CHDT.TRSL.000001_01_10",
+            "G.CHDT.TRSL.000001_02_10"
+          ]
+        },
+        {
+          "id": "G.CHDT.TSCH.000008",
+          "code": "G.CHDT.TSCH.000008",
+          "name": {
+            "it": "CHIUSURA A 5 TESTE",
+            "es": "CIERRE DE 5 CABEZAS"
+          },
+          "3dNode": "G.CHDT.TSCH.000008",
+          "tables": [
+            "G.CHDT.TSCH.000008_00_12",
+            "G.CHDT.TSCH.000008_01_12"
+          ]
+        },
+        {
+          "id": "S.CHSC.PGFL.000023",
+          "code": "S.CHSC.PGFL.000023",
+          "name": {
+            "it": "PIEGA FLAPPE LATERALI",
+            "es": "PLEGADOR SOLAPAS LATERALES"
+          },
+          "3dNode": "S.CHSC.PGFL.000023",
+          "tables": [
+            "S.CHSC.PGFL.000023_00_14",
+            "S.CHSC.PGFL.000023_01_14",
+            "S.CHSC.PGFL.000023_02_14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SEZ-03",
+      "name": {
+        "it": "STRUTTURA CHIUDITRICE",
+        "es": "ESTRUCTURA CERRADORA"
+      },
+      "3dNode": "G.STRT.CHDT.000000",
+      "groups": [
+        {
+          "id": "G.STRT.CHDT.000000",
+          "code": "G.STRT.CHDT.000000",
+          "name": {
+            "it": "STRUTTURA CHIUDITRICE",
+            "es": "ESTRUCTURA CERRADORA"
+          },
+          "3dNode": "G.STRT.CHDT.000000",
+          "tables": [
+            "G.STRT.CHDT.000000_00_12",
+            "G.STRT.CHDT.000000_01_12",
+            "G.STRT.CHDT.000000_02_12",
+            "G.STRT.CHDT.000000_03_12"
+          ]
+        },
+        {
+          "id": "S.BRMC.QDLC.000044",
+          "code": "S.BRMC.QDLC.000044",
+          "name": {
+            "it": "QUADRO ELETTRICO",
+            "es": "CUADRO ELÉCTRICO"
+          },
+          "3dNode": "S.BRMC.QDLC.000044",
+          "tables": [
+            "S.BRMC.QDLC.000044_00_10",
+            "S.BRMC.QDLC.000044_01_10"
+          ]
+        },
+        {
+          "id": "S.CHSC.GRCL.000018",
+          "code": "S.CHSC.GRCL.000018",
+          "name": {
+            "it": "COLLA NORDSON 3 TUBI",
+            "es": "COLA NORDSON 3 TUBOS"
+          },
+          "3dNode": "S.CHSC.GRCL.000018",
+          "tables": [
+            "S.CHSC.GRCL.000018_00_10",
+            "S.CHSC.GRCL.000018_01_10"
+          ]
+        },
+        {
+          "id": "S.STRT.CHDT.000000",
+          "code": "S.STRT.CHDT.000000",
+          "name": {
+            "it": "STRUTTURA CHIUDITRICE",
+            "es": "ESTRUCTURA CERRADORA"
+          },
+          "3dNode": "S.STRT.CHDT.000000",
+          "tables": [
+            "S.STRT.CHDT.000000_00_11",
+            "S.STRT.CHDT.000000_01_11",
+            "S.STRT.CHDT.000000_02_11",
+            "S.STRT.CHDT.000000_03_11",
+            "S.STRT.CHDT.000000_04_11",
+            "S.STRT.CHDT.000000_05_11"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿[
+    {
+        "Key":  "ID",
+        "Value":  "CT PACK"
+    },
+    {
+        "Key":  "Name",
+        "Value":  "CT PACK"
+    },
+    {
+        "Key":  "Address",
+        "Value":  "Via Argine Volano 355D \\n44034 \\nFerrara - Italy"
+    },
+    {
+        "Key":  "OrderHeader",
+        "Value":  "CT PACK\\nVia Argine Volano 355D\\n44034 \\nFerrara - Italy\\nTel. +39 0532 879600\\nFax. +39 0532 866381\\nwww.ctpack.com\\ne-mail: service@ctpack.com"
+    },
+    {
+        "Key":  "FormBackColor",
+        "Value":  ""
+    },
+    {
+        "Key":  "DataBackColor",
+        "Value":  ""
+    },
+    {
+        "Key":  "LabelForeColor",
+        "Value":  ""
+    },
+    {
+        "Key":  "MailSubject",
+        "Value":  "Invio Ordine"
+    },
+    {
+        "Key":  "Email",
+        "Value":  "service@ctpack.com"
+    },
+    {
+        "Key":  "CodiceDocumento",
+        "Value":  "221104"
+    },
+    {
+        "Key":  "CertificazioneNumero",
+        "Value":  ""
+    },
+    {
+        "Key":  "MIP",
+        "Value":  ""
+    },
+    {
+        "Key":  "OrdineCliente",
+        "Value":  ""
+    },
+    {
+        "Key":  "Separator",
+        "Value":  ";"
+    }
+]

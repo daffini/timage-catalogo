@@ -1,0 +1,53 @@
+{
+  "name": "timage-catalog",
+  "version": "1.1.0",
+  "description": "Timage Technical Documentation - Catalogo Ricambi con navigazione 3D",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite build --watch & electron .",
+    "start": "vite build && electron .",
+    "build:renderer": "vite build",
+    "build:win": "vite build && electron-builder --win portable",
+    "build:mac": "vite build && electron-builder --mac dmg",
+    "build:linux": "vite build && electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "com.timage.catalog",
+    "productName": "Timage Catalog",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "dist/**/*",
+      "assets/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "data",
+        "to": "data"
+      }
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "assets/icons/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icons/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icons/icon.png"
+    }
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "vite": "^5.4.21"
+  }
+}

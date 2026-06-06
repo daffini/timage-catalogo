@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "serial": "M.VRTX.CLSR.000012",
+      "name": "CT PACK",
+      "rev": "1.3",
+      "client": "",
+      "languages": [
+        "it",
+        "es"
+      ],
+      "3dModel": "3d/M.VRTX.CLSR.000012.glb",
+      "version": ""
+    }
+  ]
+}

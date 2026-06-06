@@ -1,0 +1,20 @@
+﻿[
+    {
+        "lingua_sezione":  "TRANSPORTE CAJAS",
+        "id_sezione":  0,
+        "numero_sezione":  "01",
+        "descrizione_sezione":  "TRASPORTO SCATOLE"
+    },
+    {
+        "lingua_sezione":  "CIERRE CAJAS",
+        "id_sezione":  1,
+        "numero_sezione":  "02",
+        "descrizione_sezione":  "CHIUSURA SCATOLE"
+    },
+    {
+        "lingua_sezione":  "ESTRUCTURA CERRADORA",
+        "id_sezione":  2,
+        "numero_sezione":  "03",
+        "descrizione_sezione":  "STRUTTURA CHIUDITRICE"
+    }
+]

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' file: data: blob:;">
+  <title>Timage Catalog</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- ═══ TOOLBAR ═══ -->
+  <header id="toolbar">
+    <div class="toolbar-group toolbar-left">
+      <img src="assets/icons/logo.png" alt="CT Pack" class="toolbar-logo" onerror="this.style.display='none'">
+      <div class="toolbar-separator"></div>
+      <button id="btn-home" class="toolbar-btn" title="Home">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span data-i18n="home">Home</span>
+      </button>
+      <button id="btn-back" class="toolbar-btn" title="Indietro" disabled>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        <span data-i18n="back">Indietro</span>
+      </button>
+      <button id="btn-forward" class="toolbar-btn" title="Avanti" disabled>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        <span>Avanti</span>
+      </button>
+      <div class="toolbar-separator"></div>
+      <button id="btn-search" class="toolbar-btn" title="Cerca">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <span data-i18n="search">Cerca</span>
+      </button>
+      <button id="btn-cart" class="toolbar-btn" title="Carrello">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span data-i18n="cart">Carrello</span>
+        <span id="cart-badge" class="badge hidden">0</span>
+      </button>
+    </div>
+    <div class="toolbar-group toolbar-center">
+      <div id="breadcrumb" class="breadcrumb">
+        <span class="crumb active">Home</span>
+      </div>
+    </div>
+    <div class="toolbar-group toolbar-right">
+      <button id="btn-lang" class="toolbar-btn" title="Lingua">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span id="current-lang">IT</span>
+      </button>
+      <button id="btn-help" class="toolbar-btn" title="Aiuto">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span data-i18n="help">Aiuto</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN CONTENT ═══ -->
+  <main id="app-main">
+
+    <!-- Sidebar sinistra: albero navigazione -->
+    <aside id="sidebar">
+      <div id="tree-header">
+        <span class="tree-header-label">Struttura</span>
+        <div class="tree-mode-toggle" role="group" aria-label="Tipo di vista albero">
+          <button id="tree-mode-flat" class="tree-mode-btn active" data-hier="flat" title="Vista piatta: Macchina → Sezione → Gruppo → Particolare">Piatta</button>
+          <button id="tree-mode-nested" class="tree-mode-btn" data-hier="nested" title="Vista annidata: i sotto-gruppi dentro i gruppi padre">Annidata</button>
+        </div>
+      </div>
+      <div id="tree-container">
+        <ul id="tree-view" class="tree-view"></ul>
+      </div>
+    </aside>
+
+    <!-- Splitter trascinabile -->
+    <div id="splitter" class="splitter"></div>
+
+    <!-- Area principale -->
+    <section id="main-area">
+      <!-- Tab navigazione + toolbar 3D inline -->
+      <div id="view-tabs">
+        <button class="view-tab active" data-view="3d">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <span data-i18n="3d_view">Vista 3D</span>
+        </button>
+        <button class="view-tab" data-view="tree">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          <span data-i18n="tree_view">Esplosi</span>
+        </button>
+
+        <!-- 3D breadcrumb inline -->
+        <div id="three-nav" class="three-nav-inline" style="display:none">
+          <div class="toolbar-separator"></div>
+          <button id="three-back" class="three-btn" title="Indietro">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+        </div>
+
+        <!-- Spacer -->
+        <div style="flex:1"></div>
+
+        <!-- 3D tools inline -->
+        <div id="three-toolbar" class="three-toolbar-inline" style="display:none">
+          <button id="three-zoom-in" class="three-btn" title="Zoom +">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </button>
+          <button id="three-zoom-out" class="three-btn" title="Zoom -">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </button>
+          <button id="three-zoom-fit" class="three-btn" title="Adatta">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
+          </button>
+          <div class="toolbar-separator"></div>
+          <button id="three-view-front" class="three-btn" title="Vista Frontale">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/><line x1="12" y1="4" x2="12" y2="20" opacity="0.3"/><line x1="4" y1="12" x2="20" y2="12" opacity="0.3"/></svg>
+          </button>
+          <button id="three-view-top" class="three-btn" title="Vista dall'Alto">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><line x1="4" y1="8" x2="12" y2="12"/><line x1="20" y1="8" x2="12" y2="12"/><line x1="12" y1="12" x2="12" y2="20" opacity="0.3"/></svg>
+          </button>
+          <button id="three-view-side" class="three-btn" title="Vista Laterale">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v16H6z"/><path d="M6 4l-2 2v12l2 2" opacity="0.4"/><line x1="6" y1="12" x2="18" y2="12" opacity="0.3"/></svg>
+          </button>
+          <div class="toolbar-separator"></div>
+          <button id="three-wireframe" class="three-btn" title="Trasparenza">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v8l-8 4-8-4V6z"/><line x1="12" y1="2" x2="12" y2="14"/><line x1="4" y1="6" x2="20" y2="6" opacity="0.3"/><line x1="4" y1="14" x2="12" y2="10"/><line x1="20" y1="14" x2="12" y2="10"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Viewer area -->
+      <div id="viewer-container">
+        <!-- SVG Viewer (visibile quando si seleziona una tavola) -->
+        <div id="svg-viewer" class="viewer-panel">
+          <div id="svg-content" class="svg-content">
+            <div class="placeholder">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" opacity="0.3"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <p data-i18n="select_table">Seleziona una tavola dall'albero</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Viewer (visibile in modalita 3D) -->
+        <div id="three-viewer" class="viewer-panel active">
+          <canvas id="three-canvas"></canvas>
+          <div id="three-loading" class="loading-overlay hidden">
+            <div class="loading-spinner"></div>
+            <p>Caricamento modello 3D...</p>
+            <div class="progress-bar"><div id="three-progress" class="progress-fill"></div></div>
+          </div>
+        </div>
+
+        <!-- Info 3D -->
+        <div id="three-info" class="three-info hidden">
+          <span id="three-info-text"></span>
+        </div>
+      </div>
+
+      <!-- Pannello tabella (footer unico per tutte le viste) -->
+      <div id="three-detail-panel" class="three-detail-panel hidden">
+        <div id="three-detail-content"></div>
+      </div>
+
+      <!-- Elementi nascosti per compatibilità JS -->
+      <select id="part-code-select" style="display:none"></select>
+      <span id="part-description" style="display:none"></span>
+      <input type="number" id="part-qty" style="display:none" value="1">
+      <span id="part-group-code" style="display:none"></span>
+      <span id="part-group-desc" style="display:none"></span>
+
+      <!-- Striscia miniature -->
+      <div id="thumb-strip" class="thumb-strip hidden">
+        <div id="thumb-scroll" class="thumb-scroll"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ MODALI ═══ -->
+
+  <!-- Modale Carrello -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content modal-large">
+      <div class="modal-header">
+        <h2 data-i18n="cart_title">Lista Parti di Ricambio</h2>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-toolbar">
+        <button id="cart-export-xlsx" class="btn-secondary" title="Export Excel">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Excel
+        </button>
+        <button id="cart-export-pdf" class="btn-secondary" title="Export PDF">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          PDF
+        </button>
+        <button id="cart-print" class="btn-secondary" title="Stampa">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Stampa
+        </button>
+        <div class="spacer"></div>
+        <button id="cart-clear" class="btn-danger" title="Svuota">Svuota Tutto</button>
+      </div>
+      <div class="modal-body">
+        <table id="cart-table" class="data-table">
+          <thead>
+            <tr>
+              <th data-i18n="pos">Pos</th>
+              <th>Fig.</th>
+              <th data-i18n="code">Codice</th>
+              <th data-i18n="description">Descrizione</th>
+              <th data-i18n="table_num">Tavola</th>
+              <th data-i18n="qty">Qt.</th>
+              <th data-i18n="group">Gruppo</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="cart-body"></tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <div class="notes-section">
+          <label data-i18n="notes">Note:</label>
+          <textarea id="cart-notes" rows="3"></textarea>
+        </div>
+        <div class="operator-section">
+          <label data-i18n="operator_name">Operatore:</label>
+          <input type="text" id="cart-operator">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modale Ricerca -->
+  <!-- Pannello ricerca flottante (draggable, sempre in primo piano) -->
+  <div id="search-panel" class="search-panel hidden">
+    <div class="search-panel-header" id="search-panel-drag">
+      <span>🔍 Ricerca Particolare</span>
+      <button class="search-panel-close" id="search-panel-close">&times;</button>
+    </div>
+    <div class="search-panel-body">
+      <div class="search-unified-row">
+        <input type="text" id="search-unified" class="search-input search-unified-input" placeholder="Cerca per codice, descrizione, gruppo…">
+        <button id="btn-do-search" class="btn-primary">Cerca</button>
+      </div>
+      <div id="search-results" class="search-results hidden">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th style="width:100px">Fig.</th>
+              <th>Sezione</th>
+              <th>Gruppo</th>
+              <th>Codice</th>
+              <th>Descrizione</th>
+              <th style="width:40px">Tav.</th>
+              <th style="width:40px">Pos.</th>
+              <th>Qt.</th>
+              <th style="width:110px"></th>
+            </tr>
+          </thead>
+          <tbody id="search-results-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mantieni #search-modal come alias per compatibilità (nascosto) -->
+  <div id="search-modal" style="display:none"></div>
+
+  <!-- Modal Info Pezzo -->
+  <div id="part-info-modal" class="modal hidden">
+    <div class="modal-content" style="max-width:560px;">
+      <div class="modal-header">
+        <h2 id="part-info-title">Dettaglio Pezzo</h2>
+        <button class="modal-close" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="part-info-thumb" style="width:100%;height:240px;background:#fff;border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;overflow:hidden;"></div>
+        <table class="data-table" id="part-info-table">
+          <tbody id="part-info-body"></tbody>
+        </table>
+      </div>
+      <div id="part-info-footer" style="padding:12px 16px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:flex-end;gap:8px;">
+        <label style="font-size:13px;">Qt.:</label>
+        <input type="number" id="part-info-qty" value="1" min="1" style="width:60px;padding:4px 6px;border:1px solid var(--border);border-radius:4px;">
+        <button id="part-info-add-cart" class="btn-primary" style="display:flex;align-items:center;gap:6px;padding:6px 14px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Aggiungi al Carrello
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
