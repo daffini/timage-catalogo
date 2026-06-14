@@ -597,7 +597,7 @@ export class Viewer3D {
     }
   }
 
-  // Click singolo: seleziona un pezzo a livello gruppo
+  // Click singolo: seleziona un pezzo a livello gruppo; ri-click deseleziona
   _onClickGroup(event) {
     if (!this.model || this.currentLevel !== 'group') return;
 
@@ -608,6 +608,13 @@ export class Viewer3D {
 
     const partHit = this._firstGroupPartHit(intersects);
     if (!partHit) return;
+
+    if (this._selectedPartCode === partHit.code) {
+      // Ri-click sullo stesso pezzo: deseleziona
+      this._clearPartHighlight();
+      this._emit('deselect-part', partHit.code);
+      return;
+    }
 
     this.highlightPartByCode(partHit.code, false);
     this._emit('select-part', partHit.code);
@@ -666,14 +673,48 @@ export class Viewer3D {
       // Livello gruppo: hover attivo solo sui PEZZI della distinta di questo gruppo.
       // Scorri gli intersect: salta scatole/coperture che non sono pezzi.
       const partHit = this._firstGroupPartHit(intersects);
+      const newCode = partHit?.code || null;
       if (partHit) {
         this._setHoverPartMeshes(partHit.code, this._partMeshesInGroup(partHit.code));
-        this._showTooltip(event, partHit.code); // tooltip: codice + nome
+        this._showTooltip(event, partHit.code);
       } else {
         this._clearHoverUnit();
         this._hideTooltip();
       }
+      if (newCode !== this._lastHoverPartCode) {
+        this._lastHoverPartCode = newCode;
+        this._emit('hover-part', newCode);
+      }
     }
+  }
+
+  // Applica l'hover (ambra) su un pezzo dal codice — chiamato dall'app quando
+  // il mouse è sull'albero invece che sul canvas 3D.
+  // Il tooltip appare sopra il pezzo nel viewport 3D.
+  hoverPartByCode(code) {
+    if (this.currentLevel !== 'group') return;
+    this._clearHoverUnit();
+    this._hideTooltip();
+    if (!code) return;
+    const meshes = this._partMeshesInGroup(code);
+    this._setHoverPartMeshes(code, meshes);
+    const pos = this._screenPositionOfMeshes(meshes);
+    if (pos) this._showTooltip({ clientX: pos.x, clientY: pos.y }, code);
+  }
+
+  // Proietta il centro del bounding box di un insieme di mesh in coordinate schermo.
+  _screenPositionOfMeshes(meshes) {
+    if (!meshes || !meshes.length) return null;
+    const box = new THREE.Box3();
+    meshes.forEach(m => box.expandByObject(m));
+    if (box.isEmpty()) return null;
+    const center = box.getCenter(new THREE.Vector3());
+    center.project(this.camera);
+    const rect = this.canvas.getBoundingClientRect();
+    return {
+      x: rect.left + (center.x * 0.5 + 0.5) * rect.width,
+      y: rect.top  + (-center.y * 0.5 + 0.5) * rect.height,
+    };
   }
 
   /**
@@ -734,21 +775,6 @@ export class Viewer3D {
     this.canvas.style.cursor = '';
   }
 
-  /**
-   * Evidenzia in ambra un pezzo (chiamato dall'hover sull'albero).
-   * Ha effetto solo a livello gruppo, sui pezzi del gruppo corrente.
-   */
-  hoverPartByCode(code) {
-    if (!this.model || !code) return;
-    if (this.currentLevel !== 'group' || !this._currentGroupMeshes) return;
-    const meshes = this._partMeshesInGroup(code);
-    if (meshes.length) this._setHoverPartMeshes(code, meshes);
-  }
-
-  clearTreeHover() {
-    this._clearHoverUnit();
-    this._hideTooltip();
-  }
 
   /**
    * Dato un mesh cliccato, risale la gerarchia fino a trovare
@@ -816,13 +842,36 @@ export class Viewer3D {
     // modello, non solo sotto il nodo glTF del gruppo).
     const codes = this._groupPartCodes?.get(group.code) || new Set();
     const partMeshes = new Set();
+    // counterNodeMap: nodo THREE → codice catalogo (per le istanze duplicate)
+    const counterNodeMap = new Map();
+
+    const addNodeMeshes = (node) => {
+      if (node.isMesh) partMeshes.add(node);
+      node.traverse(sub => { if (sub.isMesh) partMeshes.add(sub); });
+    };
+
+    // Prima passata: match esatto per codice catalogo
+    const exactNodes = [];
     this.model.traverse((node) => {
       if (node.name && codes.has(this._normalizeName(node.name))) {
-        if (node.isMesh) partMeshes.add(node);
-        node.traverse(sub => { if (sub.isMesh) partMeshes.add(sub); });
+        exactNodes.push(node);
+        addNodeMeshes(node);
       }
     });
+
+    // Seconda passata: cerca counter-node i cui FIGLI rivelano il codice originale.
+    // Es. nodo "CGDLNRLLN001" ha figli "CGDLNRLLN000030mesh()" → originale = CGDLNRLLN000030.
+    this.model.traverse((node) => {
+      if (!node.name || !this._isCounterNode(this._normalizeName(node.name))) return;
+      const origCode = this._counterNodeOriginalCode(node, codes);
+      if (origCode) {
+        counterNodeMap.set(node, origCode);
+        addNodeMeshes(node);
+      }
+    });
+
     this._currentGroupMeshes = partMeshes;
+    this._counterNodeMap = counterNodeMap;
 
     // Visibilita: mostra l'assieme del gruppo (contesto) + i pezzi sparsi;
     // nascondi le altre sezioni/gruppi.
@@ -839,17 +888,30 @@ export class Viewer3D {
     });
 
     // Materiali: il resto dell'assieme del gruppo (non-pezzi) va in trasparenza;
-    // i pezzi della distinta restano opachi (selezionabili).
+    // i pezzi della distinta vengono colorati in verde acqua (selezionabili).
     this._groupGhostState = [];
+    this._groupPartColorState = [];
+    const partMat = this._getGroupPartMaterial();
+    const ghost = this._getGroupGhostMaterial();
     if (group.object) {
-      const ghost = this._getGroupGhostMaterial();
       group.object.traverse((c) => {
-        if (c.isMesh && !partMeshes.has(c)) {
+        if (!c.isMesh) return;
+        if (partMeshes.has(c)) {
+          this._groupPartColorState.push({ mesh: c, material: c.material });
+          c.material = partMat;
+        } else {
           this._groupGhostState.push({ mesh: c, material: c.material });
           c.material = ghost;
         }
       });
     }
+    // Pezzi sparsi fuori dal nodo del gruppo (in partMeshes ma non già colorati)
+    partMeshes.forEach(m => {
+      if (!this._groupPartColorState.some(s => s.mesh === m)) {
+        this._groupPartColorState.push({ mesh: m, material: m.material });
+        m.material = partMat;
+      }
+    });
     // Rispetta lo stato del toggle "Trasparenza" (mostra/nasconde il contesto)
     this._applyTransparencyVisibility();
 
@@ -877,6 +939,23 @@ export class Viewer3D {
       });
       this._groupGhostState = null;
     }
+    if (this._groupPartColorState) {
+      const partMat = this._groupPartMaterial;
+      this._groupPartColorState.forEach(({ mesh, material }) => {
+        if (mesh.material === partMat) mesh.material = material;
+      });
+      this._groupPartColorState = null;
+    }
+  }
+
+  _getGroupPartMaterial() {
+    if (!this._groupPartMaterial) {
+      this._groupPartMaterial = new THREE.MeshLambertMaterial({
+        color: 0x2ecc9e,
+        side: THREE.DoubleSide,
+      });
+    }
+    return this._groupPartMaterial;
   }
 
   /**
@@ -927,6 +1006,7 @@ export class Viewer3D {
     if (!meshes.length) return;
 
     this._highlightPartsWithAlpha(meshes);
+    this._selectedPartCode = code;
     if (fit) this._fitCameraToMeshes(meshes);
   }
 
@@ -939,13 +1019,41 @@ export class Viewer3D {
     const meshes = new Set();
     if (!root || !code) return [];
     const norm = this._normalizeName(code);
+    const normPrefix = norm.replace(/\d+$/, '');
+    const codeSet = new Set([norm]);
     root.traverse((node) => {
-      if (this._normalizeName(node.name) === norm) {
+      if (!node.name) return;
+      const nodNorm = this._normalizeName(node.name);
+      const matches = nodNorm === norm ||
+        (this._isCounterNode(nodNorm) && this._counterNodeOriginalCode(node, codeSet) === norm);
+      if (matches) {
         if (node.isMesh) meshes.add(node);
         node.traverse(sub => { if (sub.isMesh) meshes.add(sub); });
       }
     });
     return [...meshes];
+  }
+
+  // Restituisce true se il nome normalizzato è un nodo "counter duplicate":
+  // formato [N alfa][1-4 cifre] con meno cifre finali rispetto ai codici catalogo ([N alfa][6 cifre]).
+  _isCounterNode(norm) {
+    return /^[A-Z]+\d{1,4}$/.test(norm) && !/^[A-Z]+\d{6,}$/.test(norm);
+  }
+
+  // Determina il codice catalogo originale di un counter-node esaminando i suoi figli.
+  // I figli sono nominati come "CGDLNRLLN000030mesh()" o "CGDLNRLLN000030mesh()_1":
+  // la parte prima di "mesh" è il codice originale normalizzato.
+  _counterNodeOriginalCode(node, codes) {
+    for (const child of node.children || []) {
+      if (!child.name) continue;
+      const norm = this._normalizeName(child.name);
+      // Estrai il prefisso prima di "MESH" o "SUB"
+      const m = norm.match(/^([A-Z0-9]+?)(?:MESH|SUB\d)/);
+      if (m && m[1] && codes.has(m[1])) return m[1];
+      // Fallback: se il nome del figlio normalizzato è direttamente un codice catalogo
+      if (codes.has(norm)) return norm;
+    }
+    return null;
   }
 
   /**
@@ -972,7 +1080,11 @@ export class Viewer3D {
     if (!codes) return '';
     let n = mesh;
     while (n) {
-      if (n.name && codes.has(this._normalizeName(n.name))) return n.name;
+      if (n.name) {
+        if (codes.has(this._normalizeName(n.name))) return n.name;
+        // Istanza duplicata: il nodo è registrato nella mappa counter costruita in _selectGroup
+        if (this._counterNodeMap?.has(n)) return this._counterNodeMap.get(n);
+      }
       n = n.parent;
     }
     return '';
@@ -1068,6 +1180,7 @@ export class Viewer3D {
   }
 
   _clearPartHighlight() {
+    this._selectedPartCode = null;
     // Ripristina alpha degli altri pezzi
     this._clearPartAlpha();
     // Ripristina le mesh evidenziate (multiple)
@@ -1479,6 +1592,7 @@ export class Viewer3D {
     if (this.currentLevel === 'group') {
       // Torna alla sezione: ripristina la vista sezione (solo il suo contenitore)
       this._currentGroupMeshes = null;
+      this._counterNodeMap = null;
       if (this.currentNode) {
         (this._containers || []).forEach((c) => {
           const show = (c === this.currentNode.object);

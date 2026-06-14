@@ -293,6 +293,12 @@ body {
   background: var(--accent-light);
   color: var(--accent);
 }
+.tree-node-content.hovered {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
 .tree-toggle {
   width: 16px;
   height: 16px;
@@ -1143,10 +1149,9 @@ body {
 .svg-preview-tooltip {
   position: fixed;
   display: none;
-  width: 480px;
-  height: 380px;
+  width: 380px;
+  height: 300px;
   background: #fff;
-  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   box-shadow: 0 4px 16px rgba(0,0,0,0.18);
   z-index: 3000;

@@ -40,7 +40,7 @@ export class SvgViewer {
     (this._listeners[event] || []).forEach(cb => cb(data));
   }
 
-  async load(svgPath) {
+  async load(svgPath, { removeBorders = true } = {}) {
     // Salva il tableId corrente per il popup da dblclick
     // svgPath es. "models/xxx/svg/G.TRSP.LNCT.000036_02_12.svg"
     const match = svgPath.match(/svg\/([^/]+)\.svg$/);
@@ -64,12 +64,13 @@ export class SvgViewer {
       this._translateX = 0;
       this._translateY = 0;
       this._applyTransform();
+      this._boostStrokeWidths(2.5);
 
       this._hoveredName = null;
       this._selectedName = null;
 
-      // Rimuovi il rettangolo di bordo (4 path senza data-piece-id alle estremità del viewBox)
-      this._removeBorderPaths();
+      // Rimuovi il rettangolo di bordo solo per tavole di gruppo (non per panoramiche)
+      if (removeBorders) this._removeBorderPaths();
 
       // Attiva interattività su pezzi annotati (se presenti)
       this._setupPieceInteraction();
@@ -564,18 +565,36 @@ export class SvgViewer {
    * Si tratta di path senza data-piece-id le cui coordinate stanno tutte
    * ai bordi del viewBox (x≈0 o x≈width, y≈0 o y≈height).
    */
-  _removeBorderPaths() {
+  _boostStrokeWidths(factor) {
     if (!this.svgElement) return;
-    const vb = this.svgElement.viewBox?.baseVal;
+    this.svgElement.querySelectorAll('[stroke-width]').forEach(el => {
+      const val = parseFloat(el.getAttribute('stroke-width'));
+      if (!isNaN(val) && val > 0) el.setAttribute('stroke-width', val * factor);
+    });
+    // Elementi senza stroke-width esplicito ereditano dal default SVG (1).
+    // Impostiamo un default sul root SVG se non già presente.
+    if (!this.svgElement.hasAttribute('stroke-width')) {
+      this.svgElement.setAttribute('stroke-width', factor);
+    }
+  }
+
+  _removeBorderPaths() {
+    SvgViewer.removeBorderPaths(this.svgElement);
+  }
+
+  static removeBorderPaths(svgEl) {
+    if (!svgEl) return;
+    const vb = svgEl.viewBox?.baseVal;
     if (!vb) return;
     const W = vb.width, H = vb.height;
-    const eps = W * 0.01; // tolleranza 1% della larghezza
-
-    this.svgElement.querySelectorAll('path:not([data-piece-id])').forEach(p => {
+    const eps = W * 0.01;
+    svgEl.querySelectorAll('path:not([data-piece-id])').forEach(p => {
       const d = p.getAttribute('d') || '';
       const nums = d.match(/[-+]?[0-9]*\.?[0-9]+/g);
       if (!nums || nums.length < 2) return;
-      // Tutte le coordinate devono stare vicino ai bordi (0 o W per x, 0 o H per y)
+      // Un rettangolo di bordo ha al massimo 5 coppie di coordinate (4 angoli + chiusura).
+      // Path con più punti sono contenuto del disegno, non un bordo.
+      if (nums.length > 10) return;
       const onEdge = (v, max) => v < eps || v > max - eps;
       let allOnEdge = true;
       for (let i = 0; i < nums.length - 1; i += 2) {

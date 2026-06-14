@@ -111,15 +111,13 @@ export class TreeNav {
       this._emit('dblclick', { type: node.type, id: node.id, data: node.data });
     });
 
-    // Hover su nodi tavola: preview SVG
-    if (node.type === 'table') {
-      content.addEventListener('mouseenter', (e) => {
-        this._emit('node-hover', { type: node.type, id: node.id, data: node.data, clientX: e.clientX, clientY: e.clientY });
-      });
-      content.addEventListener('mouseleave', () => {
-        this._emit('node-unhover', {});
-      });
-    }
+    // Hover su tutti i nodi: notifica app (SVG preview per tavole, sync 3D per pezzi)
+    content.addEventListener('mouseenter', (e) => {
+      this._emit('node-hover', { type: node.type, id: node.id, data: node.data, clientX: e.clientX, clientY: e.clientY });
+    });
+    content.addEventListener('mouseleave', () => {
+      this._emit('node-unhover', { type: node.type, id: node.id });
+    });
 
     return li;
   }
@@ -217,5 +215,22 @@ export class TreeNav {
       this._selectedEl.classList.remove('selected');
       this._selectedEl = null;
     }
+  }
+
+  hoverNodeById(nodeId) {
+    if (this._hoveredEl) this._hoveredEl.classList.remove('hovered');
+    this._hoveredEl = null;
+    if (!nodeId) return;
+    const el = this.container.querySelector(`[data-node-id="${CSS.escape(nodeId)}"] > .tree-node-content`);
+    if (el) {
+      el.classList.add('hovered');
+      this._hoveredEl = el;
+      el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  clearHoverNode() {
+    if (this._hoveredEl) this._hoveredEl.classList.remove('hovered');
+    this._hoveredEl = null;
   }
 }

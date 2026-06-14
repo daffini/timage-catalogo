@@ -49,7 +49,7 @@ class App {
     // Pre-carica SVG layout per quando si passa a vista Esplosi
     const serial = this.catalog.currentModel?.serial;
     if (serial) {
-      this.svgViewer.load(`models/${serial}/svg/layout.svg`);
+      this.svgViewer.load(`models/${serial}/svg/layout.svg`, { removeBorders: false });
     }
 
     // Mostra toolbar 3D all'avvio (vista 3D è default)
@@ -67,9 +67,20 @@ class App {
     this.viewer3d = new Viewer3D(canvas);
     this.viewer3d.on('select-section', (sectionNode) => this.on3DSelectSection(sectionNode));
     this.viewer3d.on('select-group', (groupNode) => this.on3DSelectGroup(groupNode));
-    // Click singolo su pezzo nel 3D: evidenzia (arancione) + selezione footer, NO popup
+    // Click singolo su pezzo nel 3D: evidenzia (arancione) + selezione footer + albero
     this.viewer3d.on('select-part', (partName) => {
       this.on3DSelectPart(partName);
+    });
+    // Ri-click su pezzo selezionato → deseleziona anche nell'albero
+    this.viewer3d.on('deselect-part', () => {
+      this.treeNav.deselectAll();
+    });
+    // Hover su pezzo nel 3D → evidenzia nodo nell'albero
+    this.viewer3d.on('hover-part', (partCode) => {
+      if (!partCode) { this.treeNav.clearHoverNode(); return; }
+      const nodeId = this._findTreeNodeForPart(partCode);
+      if (nodeId) this.treeNav.hoverNodeById(nodeId);
+      else this.treeNav.clearHoverNode();
     });
     // Doppio click su pezzo nel 3D: apre popup dettagli
     this.viewer3d.on('open-part', (partName) => {
@@ -223,17 +234,18 @@ class App {
         tt.style.top = (e.clientY - 10) + 'px';
       }
       const pt = document.getElementById('svg-preview-tooltip');
-      if (pt && pt.style.display === 'block') {
-        pt.style.left = (e.clientX + 15) + 'px';
-        pt.style.top  = (e.clientY - 10) + 'px';
-      }
+      if (pt && pt.style.display === 'block') this._positionTooltip(pt, e.clientX, e.clientY);
     });
 
-    // ─── Preview SVG su hover nodo tavola nell'albero ───
-    this.treeNav.on('node-hover', ({ data, clientX, clientY }) => {
+    // ─── Hover su nodi albero: SVG preview (tavole) + sync 3D (pezzi) ───
+    this.treeNav.on('node-hover', ({ type, data, clientX, clientY }) => {
       if (data?.svgPath) this._showSvgPreviewTooltip(data.svgPath, clientX, clientY);
+      if (type === 'part' && this.viewer3d) this.viewer3d.hoverPartByCode(data?.code);
     });
-    this.treeNav.on('node-unhover', () => this._hideSvgPreviewTooltip());
+    this.treeNav.on('node-unhover', ({ type }) => {
+      this._hideSvgPreviewTooltip();
+      if (type === 'part' && this.viewer3d) this.viewer3d.hoverPartByCode(null);
+    });
 
     // ─── Preview SVG su hover riferimento TAV- nel disegno ───
     this.svgViewer.on('ref-hover', ({ refType, clientX, clientY }) => {
@@ -319,9 +331,8 @@ class App {
     document.getElementById('three-view-side').addEventListener('click', () => this.viewer3d?.setView('side'));
     document.getElementById('three-wireframe').addEventListener('click', (e) => {
       if (!this.viewer3d) return;
-      // Mostra/nasconde le parti in trasparenza (contesto del gruppo)
-      const showing = this.viewer3d.toggleTransparency();
-      e.currentTarget.classList.toggle('active', !showing);
+      const active = this.viewer3d.toggleWireframe();
+      e.currentTarget.classList.toggle('active', active);
     });
   }
 
@@ -393,14 +404,14 @@ class App {
 
     if (node.type === 'machine') {
       this._activeGroup = null; this._activeTable = null; this._activePart = null;
-      await this.svgViewer.load(`${baseSvg}/layout.svg`);
+      await this.svgViewer.load(`${baseSvg}/layout.svg`, { removeBorders: false });
       this._syncTreeTo3D(node);
       this._show3DSectionsTable();
       document.getElementById('thumb-strip').classList.add('hidden');
     } else if (node.type === 'section') {
       this._activeGroup = null; this._activeTable = null; this._activePart = null;
       const sezNum = (node.data?.numero_sezione || node.id.replace('SEZ-', '')).padStart(2, '0');
-      await this.svgViewer.load(`${baseSvg}/${sezNum}.svg`);
+      await this.svgViewer.load(`${baseSvg}/${sezNum}.svg`, { removeBorders: false });
       this._syncTreeTo3D(node);
       this._show3DGroupsTable(node.data);
     } else if (node.type === 'group') {
@@ -897,6 +908,10 @@ class App {
       document.getElementById('part-description').textContent =
         part.description[this.catalog.currentLang] || part.description.it || '';
 
+      // Evidenzia e scrolla il nodo parte nell'albero
+      const treeNodeId = this._findTreeNodeForPart(part.code);
+      if (treeNodeId) this.treeNav.selectByNodeId(treeNodeId);
+
       console.log('3D→Pezzo selezionato:', part.code, part.description.it);
       this.updateBreadcrumb({ type: 'part', id: part.code, data: part });
     } else {
@@ -941,6 +956,33 @@ class App {
             this._norm(group.id) === norm3d) {
           return group.id || group.code;
         }
+      }
+    }
+    return null;
+  }
+
+  // Trova il node ID di un pezzo nell'albero (formato "part:<gid>:<idx>"),
+  // replicando la stessa logica di filtering di getTreeData3D.
+  _findTreeNodeForPart(partCode) {
+    if (!this.catalog.groups?.sections) return null;
+    const normCode = this._norm(partCode);
+    const groupCodeSet = new Set();
+    this.catalog.groups.sections.forEach(s =>
+      (s.groups || []).forEach(gr => groupCodeSet.add(this._norm(gr.code))));
+
+    for (const section of this.catalog.groups.sections) {
+      for (const group of section.groups || []) {
+        const gid = group.id || group.code;
+        const seen = new Set();
+        const parts = this.catalog.getPartsForGroup(group.code).filter(p => {
+          if (/^TAV-/i.test(p.code)) return false;
+          if (groupCodeSet.has(this._norm(p.code))) return false;
+          if (seen.has(p.code)) return false;
+          seen.add(p.code);
+          return true;
+        });
+        const idx = parts.findIndex(p => this._norm(p.code) === normCode);
+        if (idx !== -1) return `part:${gid}:${idx}`;
       }
     }
     return null;
@@ -1149,7 +1191,7 @@ class App {
     // Carica layout.svg come vista iniziale
     const serial = this.catalog.currentModel?.serial;
     if (serial) {
-      this.svgViewer.load(`models/${serial}/svg/layout.svg`);
+      this.svgViewer.load(`models/${serial}/svg/layout.svg`, { removeBorders: false });
     } else {
       this.svgViewer.clear();
     }
@@ -1287,8 +1329,8 @@ class App {
    * Mostra tabella sezioni nel footer 3D (livello macchina).
    */
   _show3DSectionsTable() {
-    // In vista 3D non si mostra la distinta sotto la tavola
-    if (this.currentView === '3d') { this._hide3DDetailPanel(); return; }
+    // In vista 3D e SVG non si mostra la distinta sotto la tavola
+    if (this.currentView === '3d' || this.currentView === 'tree') { this._hide3DDetailPanel(); return; }
     const panel = document.getElementById('three-detail-panel');
     const content = document.getElementById('three-detail-content');
     const lang = this.catalog.currentLang;
@@ -1346,8 +1388,8 @@ class App {
    * Mostra tabella gruppi della sezione nel footer 3D (livello sezione).
    */
   _show3DGroupsTable(section) {
-    // In vista 3D non si mostra la distinta sotto la tavola
-    if (this.currentView === '3d') { this._hide3DDetailPanel(); return; }
+    // In vista 3D e SVG non si mostra la distinta sotto la tavola
+    if (this.currentView === '3d' || this.currentView === 'tree') { this._hide3DDetailPanel(); return; }
     const panel = document.getElementById('three-detail-panel');
     const content = document.getElementById('three-detail-content');
     const lang = this.catalog.currentLang;
@@ -1792,6 +1834,17 @@ class App {
     }
   }
 
+  _positionTooltip(el, x, y) {
+    const W = el.offsetWidth  || 380;
+    const H = el.offsetHeight || 300;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const left = (x + 15 + W > vw) ? x - W - 15 : x + 15;
+    const top  = (y - 10 + H > vh) ? vh - H - 10 : Math.max(10, y - 10);
+    el.style.left = left + 'px';
+    el.style.top  = top  + 'px';
+  }
+
   _showSvgPreviewTooltip(svgPath, x, y) {
     let tt = document.getElementById('svg-preview-tooltip');
     if (!tt) {
@@ -1805,9 +1858,8 @@ class App {
     const version = (this._svgPreviewVersion = (this._svgPreviewVersion || 0) + 1);
 
     tt.innerHTML = '<div class="svg-preview-loading">caricamento…</div>';
-    tt.style.left = (x + 15) + 'px';
-    tt.style.top  = (y - 10) + 'px';
     tt.style.display = 'block';
+    this._positionTooltip(tt, x, y);
 
     window.catalog.readSvg(svgPath).then(svgHtml => {
       if (this._svgPreviewVersion !== version) return; // annullato
@@ -1821,6 +1873,14 @@ class App {
         svg.style.height = '100%';
         svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
         svg.style.pointerEvents = 'none';
+        // Rimuovi riquadri di bordo (come nel viewer principale)
+        SvgViewer.removeBorderPaths(svg);
+        // Stesso spessore tratto del viewer principale
+        svg.querySelectorAll('[stroke-width]').forEach(el => {
+          const v = parseFloat(el.getAttribute('stroke-width'));
+          if (!isNaN(v) && v > 0) el.setAttribute('stroke-width', v * 2.5);
+        });
+        if (!svg.hasAttribute('stroke-width')) svg.setAttribute('stroke-width', 2.5);
       }
     });
   }
